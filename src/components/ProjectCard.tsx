@@ -1,69 +1,63 @@
-import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 
 interface ProjectCardProps {
   title: string;
-  period: string;
   description: string;
-  technologies: string[];
   image: string;
-  delay: number;
-  isVisible: boolean;
+  period: string;
+  technologies: string[];
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ 
-  title, 
-  period, 
-  description, 
-  technologies, 
-  image,
-  delay,
-  isVisible
-}) => {
-  const [isHovered, setIsHovered] = useState(false);
+export const ProjectCard = ({ title, description, image, period, technologies }: ProjectCardProps) => {
+  const isPolkadot = title.includes('Polkadot');
 
   return (
-    <div 
-      className={`bg-white dark:bg-slate-800 rounded-xl shadow-md overflow-hidden transform transition-all duration-700 ${
-        isVisible 
-          ? `translate-y-0 opacity-100` 
-          : 'translate-y-10 opacity-0'
-      }`}
-      style={{ transitionDelay: `${delay}s` }}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      whileHover={{ scale: 1.02, y: -5 }}
+      transition={{ duration: 0.2 }}
+      className="bg-white dark:bg-gray-700 rounded-lg shadow-md overflow-hidden transform-gpu"
     >
-      <div className="h-48 overflow-hidden relative">
-        <img 
-          src={image} 
-          alt={title} 
-          className={`w-full h-full object-cover transition-transform duration-700 ${
-            isHovered ? 'scale-110' : 'scale-100'
-          }`}
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
-          <div className="p-4">
-            <h3 className="text-xl font-semibold text-white">{title}</h3>
-            <p className="text-blue-300 text-sm">{period}</p>
+      <motion.div
+        whileHover={{ scale: 1.1 }}
+        transition={{ duration: 0.3 }}
+        className="relative overflow-hidden h-48"
+      >
+        <img src={image} alt={title} className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+        {isPolkadot && (
+          <div className="absolute inset-0 flex items-center justify-center">
+            <svg
+              viewBox="0 0 1024 1024"
+              className="w-24 h-24 text-white"
+              fill="currentColor"
+            >
+              <path d="M512 0C229.2 0 0 229.2 0 512s229.2 512 512 512 512-229.2 512-512S794.8 0 512 0zm0 938.7C276.7 938.7 85.3 747.3 85.3 512S276.7 85.3 512 85.3 938.7 276.7 938.7 512 747.3 938.7 512 938.7z"/>
+              <path d="M512 298.7c-117.8 0-213.3 95.5-213.3 213.3S394.2 725.3 512 725.3 725.3 629.8 725.3 512 629.8 298.7 512 298.7zM512 640c-70.7 0-128-57.3-128-128s57.3-128 128-128 128 57.3 128 128-57.3 128-128 128z"/>
+            </svg>
           </div>
-        </div>
-      </div>
-      
+        )}
+      </motion.div>
       <div className="p-6">
-        <p className="text-slate-700 dark:text-slate-300 mb-4">{description}</p>
-        
+        <div className="flex justify-between items-start mb-2">
+          <h3 className="text-xl font-semibold">{title}</h3>
+          <span className="text-sm text-gray-500 dark:text-gray-400">{period}</span>
+        </div>
+        <p className="text-gray-600 dark:text-gray-300 mb-4">{description}</p>
         <div className="flex flex-wrap gap-2">
-          {technologies.map((tech, i) => (
-            <span 
-              key={i} 
-              className="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 px-2 py-1 rounded-md text-xs"
+          {technologies.map((tech) => (
+            <motion.span
+              key={tech}
+              whileHover={{ scale: 1.1 }}
+              className="px-3 py-1 bg-gray-100 dark:bg-gray-600 rounded-full text-sm"
             >
               {tech}
-            </span>
+            </motion.span>
           ))}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
-
-export default ProjectCard;
