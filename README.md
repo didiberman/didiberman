@@ -23,9 +23,6 @@ I’m Didi Berman, a passionate developer focused on automation, AI-powered solu
 - **Funnels & Analytics Bots**  
   [telegram-funnel-insights](https://github.com/didiberman/telegram-funnel-insights) provides real-time conversion and engagement analytics via Telegram automation.
 
-- **Portfolio & Showcases**  
-  Explore my overall work and skills at [didi-portfolio](https://github.com/didiberman/didi-portfolio).
-
 - **Custom Solutions**  
   I also work on private projects for clients and personal learning, covering backend systems, cloud automation, DevOps pipelines, and specialized AI integrations.
 
@@ -41,4 +38,4 @@ I’m Didi Berman, a passionate developer focused on automation, AI-powered solu
 
 ---
 
-If you’re interested in innovative automation, AI integration, or business growth tech, let’s connect!
+If you’re interested in innovative automation, AI integration, or business growth tech, let’s connect! find me here -> https://didiberman.com.
