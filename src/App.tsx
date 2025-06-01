@@ -123,7 +123,7 @@ function App() {
                     className="block text-base text-gray-600 dark:text-gray-400"
                   />
                   <BurningText
-                    text="in deploying intelligent"
+                    text=" deploying intelligent"
                     delay={0.5}
                     className="block text-base text-gray-600 dark:text-gray-400"
                   />
