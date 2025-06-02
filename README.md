@@ -6,8 +6,6 @@ Alongside my technical work, I bring a deep commitment to inner work and human d
 
 I'm a dedicated Vipassana meditator and currently training in Collective Trauma Healing Facilitation — aiming to bridge rigorous engineering with high emotional intelligence and trauma-informed awareness.
 
--
-
 ---
 
 ## 🌟 Core Competencies
