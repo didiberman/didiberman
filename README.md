@@ -61,7 +61,7 @@ Educational tool for exploring networking and security via simulated TCP session
 
 ---
 
-## 🎯 What This Portfolio Demonstrates
+## 🎯 Skils & Qualities
 
 - **Breadth & Depth:**  
   Skilled across Python, TypeScript, Java, C, PHP — plus DevOps, automation, and ML pipelines.
