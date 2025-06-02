@@ -76,11 +76,6 @@ An educational tool for exploring networking and security concepts through TCP s
 
 ---
 
-### [didi-portfolio](https://github.com/didiberman/didi-portfolio)
-My portfolio site, highlighting my skills, journey, and key projects.
-
----
-
 ## 🎯 What My GitHub Shows
 
 - **Versatility:**  
@@ -98,4 +93,4 @@ My portfolio site, highlighting my skills, journey, and key projects.
 ---
 
 Explore my projects, fork what inspires you, and feel free to connect for collaboration or questions!  
-[See my portfolio for more](https://github.com/didiberman/didi-portfolio)
+[See my portfolio for more](https://didiberman.com)
