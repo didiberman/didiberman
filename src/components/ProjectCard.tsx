@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Github } from 'lucide-react';
 
 interface ProjectCardProps {
   title: string;
@@ -6,9 +7,10 @@ interface ProjectCardProps {
   image: string;
   period: string;
   technologies: string[];
+  link?: string;
 }
 
-export const ProjectCard = ({ title, description, image, period, technologies }: ProjectCardProps) => {
+export const ProjectCard = ({ title, description, image, period, technologies, link }: ProjectCardProps) => {
   const isPolkadot = title.includes('Polkadot');
 
   return (
@@ -25,26 +27,28 @@ export const ProjectCard = ({ title, description, image, period, technologies }:
         transition={{ duration: 0.3 }}
         className="relative overflow-hidden h-48"
       >
-        <img src={image} alt={title} className="w-full h-full object-cover" />
+        <img 
+          src={isPolkadot ? 'https://polkadot.com/_next/static/media/polkadot-logo.0e1e2c79.png' : image} 
+          alt={title} 
+          className={`w-full h-full ${isPolkadot ? 'object-contain p-8' : 'object-cover'}`}
+        />
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
-        {isPolkadot && (
-          <div className="absolute inset-0 flex items-center justify-center">
-            <svg
-              viewBox="0 0 1024 1024"
-              className="w-24 h-24 text-white"
-              fill="currentColor"
-            >
-              <path d="M512 0C229.2 0 0 229.2 0 512s229.2 512 512 512 512-229.2 512-512S794.8 0 512 0zm0 938.7C276.7 938.7 85.3 747.3 85.3 512S276.7 85.3 512 85.3 938.7 276.7 938.7 512 747.3 938.7 512 938.7z"/>
-              <path d="M512 298.7c-117.8 0-213.3 95.5-213.3 213.3S394.2 725.3 512 725.3 725.3 629.8 725.3 512 629.8 298.7 512 298.7zM512 640c-70.7 0-128-57.3-128-128s57.3-128 128-128 128 57.3 128 128-57.3 128-128 128z"/>
-            </svg>
-          </div>
-        )}
       </motion.div>
       <div className="p-6">
         <div className="flex justify-between items-start mb-2">
           <h3 className="text-xl font-semibold">{title}</h3>
-          <span className="text-sm text-gray-500 dark:text-gray-400">{period}</span>
+          {!isPolkadot && link && (
+            <a
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+            >
+              <Github className="w-10 h-10" />
+            </a>
+          )}
         </div>
+        <span className="text-sm text-gray-500 dark:text-gray-400 block mb-2">{period}</span>
         <p className="text-gray-600 dark:text-gray-300 mb-4">{description}</p>
         <div className="flex flex-wrap gap-2">
           {technologies.map((tech) => (
