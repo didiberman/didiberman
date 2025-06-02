@@ -1,4 +1,4 @@
-# Didi Berman — AI, Automation & MLOps Engineer
+# Didi — AI, Automation & MLOps Engineer
 
 Hi! I’m Didi, a developer passionate about building real-world solutions at the intersection of **automation, AI, and MLOps / DevOps**. 
 
