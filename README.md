@@ -1,41 +1,98 @@
-# Didi Berman — Developer & MLOps/DevOps Engineer in Training
+# Didi Berman — AI, Automation & MLOps Engineer
 
-## About Me
-I’m Didi Berman, a passionate developer focused on automation, AI-powered solutions, and building tools that bridge technology and real-world needs. My work spans both public and private projects, ranging from business automation and content generation to security tooling and educational resources. I am actively training to become an MLOps/DevOps engineer, deepening my expertise in deploying and maintaining scalable, reliable machine learning and software systems.
-
-## Projects I Offer
-
-- **AI-Powered Lead Generation & Automation**  
-  Tools like [insta-lead-hunter-ai](https://github.com/didiberman/insta-lead-hunter-ai) and [ai-personalized-lead-agent](https://github.com/didiberman/ai-personalized-lead-agent) automate and personalize business outreach using AI models and workflow automation platforms.
-
-- **Content & Insight Automation**  
-  Solutions such as [youtube-medium-article-agent](https://github.com/didiberman/youtube-medium-article-agent) and [yt-deep-insights-agent](https://github.com/didiberman/yt-deep-insights-agent) empower creators to extract, analyze, and repurpose content from platforms like YouTube and Instagram, leveraging AI and data analysis.
-
-- **Wellness & Productivity Apps**  
-  [mobile-breathapp](https://github.com/didiberman/mobile-breathapp) offers guided breathing exercises, combining tech with personal wellness.
-
-- **Learning & Curriculum Platforms**  
-  [mlops-curriculum-app](https://github.com/didiberman/mlops-curriculum-app) structures the learning journey for MLOps and DevOps topics.
-
-- **Security & Networking Tools**  
-  [tcp-hijacker-classic](https://github.com/didiberman/tcp-hijacker-classic) demonstrates expertise in low-level networking and security concepts.
-
-- **Funnels & Analytics Bots**  
-  [telegram-funnel-insights](https://github.com/didiberman/telegram-funnel-insights) provides real-time conversion and engagement analytics via Telegram automation.
-
-- **Custom Solutions**  
-  I also work on private projects for clients and personal learning, covering backend systems, cloud automation, DevOps pipelines, and specialized AI integrations.
-
-## Skills
-- **Programming Languages**: TypeScript, Python, Java, C, PHP
-- **Full-Stack & Mobile Development**: Web, Android, and cross-platform solutions
-- **AI & Workflow Automation**: Integration with AI APIs (Claude, OpenRouter), n8n workflows, automation scripting
-- **API & Data Integration**: Working with and connecting diverse APIs (Instagram, YouTube, Telegram, GoHighLevel, Apify, etc.)
-- **Cloud & DevOps Foundations**: Building and automating deployment pipelines, managing cloud infrastructure, and focusing on scalability and reliability
-- **Security & Networking**: Raw sockets, TCP/IP, and cybersecurity tooling
-- **Product & UX Focus**: Designing solutions with real-world utility and user-centric design
-- **Continuous Learning**: Rapidly adopting new technologies, frameworks, and best practices
+Welcome! I’m Didi Berman, a developer passionate about building real-world solutions at the intersection of automation, AI, and MLOps/DevOps. My GitHub is a living portfolio of projects that blend practical engineering, end-to-end machine learning workflows, and a commitment to learning in public and sharing knowledge.
 
 ---
 
-If you’re interested in innovative automation, AI integration, or business growth tech, let’s connect! find me here -> https://didiberman.com.
+## 🌟 Core Strengths
+
+- **End-to-End MLOps:**  
+  Designing, training, and deploying machine learning models with modern, production-ready pipelines. Skilled in model fine-tuning, FastAPI, Docker, CI/CD (GitHub Actions), and cloud/Kubernetes deployments.
+
+- **Automation & Workflow Engineering:**  
+  Building tools and agents that automate business processes (lead generation, content transformation, outreach) using AI and workflow orchestration platforms like n8n.
+
+- **Full-Stack & API Development:**  
+  Creating robust APIs and user-facing applications using TypeScript, Python, React, Vite, Tailwind, and mobile frameworks.
+
+- **Security & Systems Insight:**  
+  Experience with low-level networking and security tooling. Capable of building educational tools that demystify complex concepts for others.
+
+- **Learning in Public:**  
+  Developing resources and curricula to help myself and others master advanced technical domains, especially MLOps.
+
+---
+
+## 🚀 Featured Projects
+
+### [youtube-comment-classifier-mlops](https://github.com/didiberman/youtube-comment-classifier-mlops)
+A complete MLOps portfolio project. Fine-tunes a DistilBERT transformer to classify YouTube comments into emotional categories, then deploys it as a real-time FastAPI service.
+
+**Demonstrates:**  
+- Hugging Face model fine-tuning  
+- Modular FastAPI inference API  
+- Fully Dockerized pipeline (training, serving, deployment)  
+- CI/CD automation with GitHub Actions  
+- Cloud/Kubernetes readiness (AWS, GCP, K3s)  
+- Data labeling, preprocessing, and experiment tracking (MLflow/W&B roadmap)
+
+---
+
+### [mlops-curriculum-app](https://github.com/didiberman/mlops-curriculum-app)
+An interactive web app that guides aspiring engineers through a structured, week-by-week MLOps learning path, with daily tasks, curated resources, and visual progress tracking.
+
+---
+
+### [insta-lead-hunter-ai](https://github.com/didiberman/insta-lead-hunter-ai)
+Automates lead extraction from Instagram using AI, streamlining the process for marketers and businesses.
+
+---
+
+### [ai-personalized-lead-agent](https://github.com/didiberman/ai-personalized-lead-agent)
+A workflow agent (built for n8n) that automates AI-powered outreach and lead management.
+
+---
+
+### [youtube-medium-article-agent](https://github.com/didiberman/youtube-medium-article-agent)
+Turns YouTube content into well-structured Medium articles via automated AI-driven transformation.
+
+---
+
+### [yt-deep-insights-agent](https://github.com/didiberman/yt-deep-insights-agent)
+Extracts and summarizes actionable insights from YouTube videos.
+
+---
+
+### [mobile-breathapp](https://github.com/didiberman/mobile-breathapp)
+A mobile application designed to improve wellness through guided breathing.
+
+---
+
+### [tcp-hijacker-classic](https://github.com/didiberman/tcp-hijacker-classic)
+An educational tool for exploring networking and security concepts through TCP session hijacking.
+
+---
+
+### [didi-portfolio](https://github.com/didiberman/didi-portfolio)
+My portfolio site, highlighting my skills, journey, and key projects.
+
+---
+
+## 🎯 What My GitHub Shows
+
+- **Versatility:**  
+  Proficiency in TypeScript, Python, Java, C, PHP, and multiple frameworks.
+
+- **Production-Ready ML & Automation:**  
+  From data and model pipelines to scalable APIs, CI/CD, Docker, and cloud ops.
+
+- **Initiative & Openness:**  
+  Curriculum creation, open source contributions, and a drive to share knowledge with the community.
+
+- **Impact-Driven Engineering:**  
+  A focus on tools that solve real problems—whether for business, learning, wellness, or security.
+
+---
+
+Explore my projects, fork what inspires you, and feel free to connect for collaboration or questions!  
+[See my portfolio for more](https://github.com/didiberman/didi-portfolio)
