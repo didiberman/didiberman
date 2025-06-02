@@ -12,14 +12,17 @@ I'm a dedicated **Vipassana** meditator and currently training in **Collective T
 
 ## 🌟 Core Competencies
 
+- **AI Automation:**  
+  Creating intelligent agents and tools for lead generation, outreach, and content transformation with platforms like n8n.
+
+- **Learning in Public:**  
+  Designing open-source curricula and sharing insights as I deepen my expertise in MLOps and AI deployment.
+
 - **End-to-End MLOps:**  
   Training, fine-tuning, and deploying ML models using production-ready stacks — PyTorch, Hugging Face, FastAPI, Docker, GitHub Actions, and Kubernetes.
 
 - **Deep Learning (NLP):**  
   Proficient in transformer architectures and emotional classification models using PyTorch.
-
-- **AI Automation:**  
-  Creating intelligent agents and tools for lead generation, outreach, and content transformation with platforms like n8n.
 
 - **Full-Stack Engineering:**  
   Building scalable applications and APIs using Python, TypeScript, React, Vite, Tailwind, and mobile frameworks.
@@ -27,8 +30,6 @@ I'm a dedicated **Vipassana** meditator and currently training in **Collective T
 - **DevOps & System Insight:**  
   Experience with CI/CD pipelines, containerization, networking, and security-focused educational tooling.
 
-- **Learning in Public:**  
-  Designing open-source curricula and sharing insights as I deepen my expertise in MLOps and AI deployment.
 
 ---
 
