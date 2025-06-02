@@ -13,7 +13,7 @@ I'm a dedicated **Vipassana** meditator and currently training in **Collective T
 ## 🌟 Core Competencies
 
 - **AI Automation:**  
-  Creating intelligent agents and tools for lead generation, outreach, and content transformation with platforms like n8n.
+  Creating intelligent agents and tools for lead generation, outreach, and content transformation with platforms like n8n, zapier, made.com.
 
 - **Learning in Public:**  
   Designing open-source curricula and sharing insights as I deepen my expertise in MLOps and AI deployment.
