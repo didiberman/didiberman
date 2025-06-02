@@ -9,6 +9,9 @@ Welcome! I’m Didi Berman, a developer passionate about building real-world sol
 - **End-to-End MLOps:**  
   Designing, training, and deploying machine learning models with modern, production-ready pipelines. Skilled in model fine-tuning, FastAPI, Docker, CI/CD (GitHub Actions), and cloud/Kubernetes deployments.
 
+- **Deep Learning (PyTorch):**  
+  Proficient in using PyTorch for model development and training, including transformer-based architectures for NLP.
+
 - **Automation & Workflow Engineering:**  
   Building tools and agents that automate business processes (lead generation, content transformation, outreach) using AI and workflow orchestration platforms like n8n.
 
@@ -26,10 +29,10 @@ Welcome! I’m Didi Berman, a developer passionate about building real-world sol
 ## 🚀 Featured Projects
 
 ### [youtube-comment-classifier-mlops](https://github.com/didiberman/youtube-comment-classifier-mlops)
-A complete MLOps portfolio project. Fine-tunes a DistilBERT transformer to classify YouTube comments into emotional categories, then deploys it as a real-time FastAPI service.
+A complete MLOps portfolio project. Fine-tunes a DistilBERT transformer (using Hugging Face Transformers and PyTorch) to classify YouTube comments into emotional categories, then deploys it as a real-time FastAPI service.
 
 **Demonstrates:**  
-- Hugging Face model fine-tuning  
+- Hugging Face/PyTorch model fine-tuning  
 - Modular FastAPI inference API  
 - Fully Dockerized pipeline (training, serving, deployment)  
 - CI/CD automation with GitHub Actions  
@@ -81,7 +84,7 @@ My portfolio site, highlighting my skills, journey, and key projects.
 ## 🎯 What My GitHub Shows
 
 - **Versatility:**  
-  Proficiency in TypeScript, Python, Java, C, PHP, and multiple frameworks.
+  Proficiency in TypeScript, Python, PyTorch, Java, C, PHP, and multiple frameworks.
 
 - **Production-Ready ML & Automation:**  
   From data and model pipelines to scalable APIs, CI/CD, Docker, and cloud ops.
@@ -95,4 +98,4 @@ My portfolio site, highlighting my skills, journey, and key projects.
 ---
 
 Explore my projects, fork what inspires you, and feel free to connect for collaboration or questions!  
-[See my portfolio for more](https://didiberman.com)
+[See my portfolio for more](https://github.com/didiberman/didi-portfolio)
