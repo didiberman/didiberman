@@ -95,4 +95,4 @@ My portfolio site, highlighting my skills, journey, and key projects.
 ---
 
 Explore my projects, fork what inspires you, and feel free to connect for collaboration or questions!  
-[See my portfolio for more](https://github.com/didiberman/didi-portfolio)
+[See my portfolio for more](https://didiberman.com)
