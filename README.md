@@ -35,6 +35,15 @@ I'm a dedicated **Vipassana** meditator and currently training in **Collective T
 
 ## 🚀 Featured Projects
 
+### 🔹 [Instagram Lead Hunter AI](https://github.com/didiberman/insta-lead-hunter-ai)  
+AI-enhanced system for scraping and qualifying Instagram leads based on custom criteria.
+
+### 🔹 [YouTube → Medium Agent](https://github.com/didiberman/youtube-medium-article-agent)  
+Turns YouTube videos into readable Medium articles using prompt engineering and AI workflows.
+
+### 🔹 [YT Deep Insights Agent](https://github.com/didiberman/yt-deep-insights-agent)  
+Extracts and summarizes content from YouTube videos into actionable insights.
+
 ### 🔹 [YouTube Comment Classifier (MLOps)](https://github.com/didiberman/youtube-comment-classifier-mlops)  
 Fine-tuned DistilBERT model for classifying YouTube comments into emotional categories.  
 > Includes Dockerized FastAPI server, CI/CD with GitHub Actions, and K3s-ready deployment.
@@ -42,17 +51,8 @@ Fine-tuned DistilBERT model for classifying YouTube comments into emotional cate
 ### 🔹 [MLOps Curriculum App](https://github.com/didiberman/mlops-curriculum-app)  
 A week-by-week interactive learning tracker to guide engineers through core MLOps concepts.
 
-### 🔹 [Instagram Lead Hunter AI](https://github.com/didiberman/insta-lead-hunter-ai)  
-AI-enhanced system for scraping and qualifying Instagram leads based on custom criteria.
-
 ### 🔹 [AI Personalized Lead Agent](https://github.com/didiberman/ai-personalized-lead-agent)  
 An n8n agent that automates AI-powered lead messaging and scoring.
-
-### 🔹 [YouTube → Medium Agent](https://github.com/didiberman/youtube-medium-article-agent)  
-Turns YouTube videos into readable Medium articles using prompt engineering and AI workflows.
-
-### 🔹 [YT Deep Insights Agent](https://github.com/didiberman/yt-deep-insights-agent)  
-Extracts and summarizes content from YouTube videos into actionable insights.
 
 ### 🔹 [Mobile BreathApp](https://github.com/didiberman/mobile-breathapp)  
 Wellness mobile app for guided breathwork and meditation.
