@@ -1,6 +1,6 @@
 # Didi Berman — AI, Automation & MLOps Engineer
 
-Welcome! I’m Didi Berman — a developer focused on building practical, scalable solutions at the intersection of AI, MLOps, and automation. My GitHub is an evolving portfolio of real-world projects that showcase end-to-end machine learning pipelines, workflow automation, and full-stack deployment.
+Hi! I'm Didi — a developer focused on building practical, scalable solutions at the intersection of AI, MLOps, and automation. My GitHub is an evolving portfolio of real-world projects that showcase end-to-end machine learning pipelines, workflow automation, and full-stack deployment.
 
 ---
 
