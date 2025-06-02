@@ -119,7 +119,7 @@ export const ChatBot = () => {
 
   return (
     <>
-      <div className="fixed bottom-4 right-4 z-50">
+      <div className="fixed bottom-4 right-4 z-30">
         {showPulse && !isOpen && (
           <div className="absolute inset-0 bg-blue-500 rounded-full animate-ping" />
         )}
@@ -142,7 +142,7 @@ export const ChatBot = () => {
             initial={{ opacity: 0, y: 20, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
-            className="fixed bottom-20 right-2 md:right-4 w-[calc(100vw-1rem)] md:w-96 bg-white dark:bg-gray-800 rounded-lg shadow-2xl overflow-hidden z-50"
+            className="fixed bottom-20 right-2 md:right-4 w-[calc(100vw-1rem)] md:w-96 bg-white dark:bg-gray-800 rounded-lg shadow-2xl overflow-hidden z-30"
           >
             <div className="p-3 md:p-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white flex justify-between items-center">
               <h3 className="font-semibold">Chat with Didi's AI Assistant</h3>
@@ -169,7 +169,13 @@ export const ChatBot = () => {
                         : 'bg-gray-100 dark:bg-gray-700'
                     }`}
                   >
-                    {formatMessageWithLinks(message.content)}
+                    {message.type === 'bot' ? (
+                      <ReactMarkdown className="prose dark:prose-invert prose-sm max-w-none">
+                        {message.content}
+                      </ReactMarkdown>
+                    ) : (
+                      message.content
+                    )}
                   </div>
                 </motion.div>
               ))}

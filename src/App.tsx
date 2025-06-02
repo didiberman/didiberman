@@ -21,6 +21,28 @@ function App() {
     visible: { opacity: 1, x: 0 },
   };
 
+  const iconVariants = {
+    pulse: {
+      scale: [1, 1.2, 1],
+      opacity: [0.7, 1, 0.7],
+      transition: {
+        duration: 2,
+        repeat: Infinity,
+        ease: "easeInOut"
+      }
+    },
+    hover: {
+      scale: 1.2,
+      rotate: 360,
+      transition: {
+        duration: 0.3,
+        type: "spring",
+        stiffness: 260,
+        damping: 20
+      }
+    }
+  };
+
   const projects = [
     {
       title: 'YouTube Comment Classifier MLOps',
@@ -186,7 +208,7 @@ function App() {
               className="flex flex-col md:flex-row gap-2 md:gap-6 justify-center items-center mb-3 md:mb-4"
             >
               <motion.a
-                href="#contact"
+                href="mailto:didi@didiberman.com"
                 whileHover={{ scale: 1.15 }}
                 whileTap={{ scale: 0.95 }}
                 className="relative group overflow-hidden rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 p-[2px]"
@@ -233,9 +255,17 @@ function App() {
                 <Mail className="w-5 h-5" />
                 <span>didi@didiberman.com</span>
               </a>
-              <a href="https://github.com/didiberman" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
+              <motion.a
+                href="https://github.com/didiberman"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400"
+                animate="pulse"
+                whileHover="hover"
+                variants={iconVariants}
+              >
                 <Github className="w-10 h-10" />
-              </a>
+              </motion.a>
             </motion.div>
           </div>
           <ScrollIndicator />

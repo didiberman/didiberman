@@ -13,6 +13,28 @@ interface ProjectCardProps {
 export const ProjectCard = ({ title, description, image, period, technologies, link }: ProjectCardProps) => {
   const isPolkadot = title.includes('Polkadot');
 
+  const iconVariants = {
+    pulse: {
+      scale: [1, 1.2, 1],
+      opacity: [0.7, 1, 0.7],
+      transition: {
+        duration: 2,
+        repeat: Infinity,
+        ease: "easeInOut"
+      }
+    },
+    hover: {
+      scale: 1.2,
+      rotate: 360,
+      transition: {
+        duration: 0.3,
+        type: "spring",
+        stiffness: 260,
+        damping: 20
+      }
+    }
+  };
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -38,14 +60,17 @@ export const ProjectCard = ({ title, description, image, period, technologies, l
         <div className="flex justify-between items-start mb-2">
           <h3 className="text-xl font-semibold">{title}</h3>
           {!isPolkadot && link && (
-            <a
+            <motion.a
               href={link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+              className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors cursor-pointer"
+              animate="pulse"
+              whileHover="hover"
+              variants={iconVariants}
             >
               <Github className="w-10 h-10" />
-            </a>
+            </motion.a>
           )}
         </div>
         <span className="text-sm text-gray-500 dark:text-gray-400 block mb-2">{period}</span>

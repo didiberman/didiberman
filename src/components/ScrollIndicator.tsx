@@ -4,6 +4,19 @@ import { useEffect, useState } from 'react';
 
 export const ScrollIndicator = () => {
   const [isAtBottom, setIsAtBottom] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+  const [hasScrolled, setHasScrolled] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -14,6 +27,9 @@ export const ScrollIndicator = () => {
       // Consider bottom reached when within 100px of the bottom
       const isBottom = scrollTop + windowHeight >= documentHeight - 100;
       setIsAtBottom(isBottom);
+
+      // Set hasScrolled to true if user has scrolled more than 50px
+      setHasScrolled(scrollTop > 50);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -23,11 +39,13 @@ export const ScrollIndicator = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  if (isAtBottom) return null;
+  if (isAtBottom || hasScrolled) return null;
 
   return (
     <motion.div
-      className="fixed bottom-8 left-1/2 transform -translate-x-1/2"
+      className={`fixed left-1/2 transform -translate-x-1/2 z-10 pointer-events-none ${
+        isMobile ? 'bottom-24' : 'bottom-16'
+      } ${isMobile ? 'md:hidden' : 'hidden md:block'}`}
       animate={{
         y: [0, 10, 0],
       }}
