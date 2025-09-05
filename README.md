@@ -1,6 +1,6 @@
 # Didi — AI, Automation & DevOps Engineer
 
-Hi! I’m Didi, a developer passionate about building real-world solutions at the intersection of **automation, AI, and DevOps/MLOps**.
+Hi! I’m Didi, a developer passionate about building real-world solutions at the intersection of **automation, AI, and DevOps**.
 
 I'm currently working via **Upwork**, helping clients automate and scale their workflows with:
 
@@ -9,9 +9,13 @@ I'm currently working via **Upwork**, helping clients automate and scale their w
 
 At the same time, I'm **learning in public** — building a full **Kubernetes home lab**, mastering **GitOps**, **CI/CD**, and **self-hosted DevOps tooling** from the ground up.
 
-Alongside my technical work, I bring a deep commitment to inner work and human development.
+---
 
-I'm a dedicated **Vipassana** meditator and currently training in **Collective Trauma Healing** Facilitation — aiming to bridge tech engineering with high emotional intelligence and trauma-informed awareness.
+## 🧑‍💻 Early Roots in Linux & Networking
+
+My journey with Linux began at **age 12**, compiling kernels on **FreeBSD**, experimenting with **Red Hat**, and reverse engineering **TCP/IP stacks** for fun. I wrote my first programs in **C** and loved diving deep into how systems and networks actually worked under the hood.
+
+That early curiosity for operating systems and protocols never left me — it’s what drives me today to master the modern DevOps stack with the same hands-on, experimental mindset.
 
 ---
 
@@ -24,19 +28,13 @@ I'm a dedicated **Vipassana** meditator and currently training in **Collective T
   Supporting startups and creators with custom automations, integrations, and backend support — with a strong focus on clarity, delivery, and results.
 
 - **Learning in Public:**  
-  Documenting my journey as I master Kubernetes (K3s), GitOps, ArgoCD, Docker, FastAPI, and more.
+  Currently focused on learning Kubernetes (K3s), GitOps (with ArgoCD), CI/CD pipelines, secrets management, and GitHub-based workflows.
 
-- **End-to-End MLOps:**  
-  Training, fine-tuning, and deploying ML models using production-ready stacks — PyTorch, Hugging Face, FastAPI, Docker, GitHub Actions, and Kubernetes.
+- **DevOps Foundations:**  
+  Developing practical skills in Linux server management, SSH, Docker, container orchestration, infrastructure-as-code, and observability.
 
-- **Deep Learning (NLP):**  
-  Proficient in transformer architectures and emotional classification models using PyTorch.
-
-- **Full-Stack Engineering:**  
-  Building scalable applications and APIs using Python, TypeScript, React, Vite, Tailwind, and mobile frameworks.
-
-- **DevOps & System Insight:**  
-  Experience with CI/CD pipelines, containerization, self-hosting, networking, and security-focused educational tooling.
+- **System Design Thinking:**  
+  Committed to mastering how to build modular, scalable, and observable backend systems — through personal projects and real-world practice.
 
 ---
 
@@ -52,11 +50,11 @@ Turns YouTube videos into readable Medium articles using prompt engineering and 
 Extracts and summarizes content from YouTube videos into actionable insights.
 
 ### 🔹 [YouTube Comment Classifier (MLOps)](https://github.com/didiberman/youtube-comment-classifier-mlops)  
-Fine-tuned DistilBERT model for classifying YouTube comments into emotional categories.  
+Categorizes emotional tone of YouTube comments.  
 > Includes Dockerized FastAPI server, CI/CD with GitHub Actions, and K3s-ready deployment.
 
 ### 🔹 [MLOps Curriculum App](https://github.com/didiberman/mlops-curriculum-app)  
-A week-by-week interactive learning tracker to guide engineers through core MLOps concepts.
+A week-by-week interactive learning tracker to guide engineers through DevOps and MLOps concepts.
 
 ### 🔹 [AI Personalized Lead Agent](https://github.com/didiberman/ai-personalized-lead-agent)  
 An n8n agent that automates AI-powered lead messaging and scoring.
@@ -71,17 +69,31 @@ Educational tool for exploring networking and security via simulated TCP session
 
 ## 🎯 Skills & Qualities
 
-- **Breadth & Depth:**  
-  Skilled across Python, TypeScript, Java, C, PHP — plus DevOps, automation, and ML pipelines.
+- **Automation-first Mindset:**  
+  I design systems that remove repetitive work and increase flow.
 
 - **Production-Readiness:**  
-  Real-world, scalable workflows from model development to deployment and monitoring.
+  Real-world automation and DevOps workflows that scale.
 
 - **Open Source & Initiative:**  
-  From curriculum design to tooling — built to share, teach, and empower.
+  I build and share public tooling, docs, and project structures that others can use.
 
-- **Problem-Solving Mindset:**  
-  Whether in AI, automation, or wellness — I build solutions that serve real human needs.
+- **Problem-Solving Orientation:**  
+  Whether it's AI, DevOps, or wellness — I build solutions that serve real human needs.
+
+---
+
+## 📚 Currently Learning
+
+- 🔧 K3s (lightweight Kubernetes distribution)
+- 🔁 GitOps with ArgoCD
+- 📦 Helm & Kubernetes YAML templating
+- ⚙️ GitHub Actions for CI/CD
+- 🔐 Secret management (Sealed Secrets, Vault)
+- 🖥️ Local & cloud hybrid cluster setups
+- 📊 Observability: Grafana, Prometheus, Loki
+- 🧱 Infrastructure as Code: Terraform, Kustomize
+- 🌍 Reverse proxies: Traefik, NGINX
 
 ---
 
