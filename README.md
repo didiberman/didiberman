@@ -24,7 +24,7 @@ That early curiosity for operating systems and protocols never left me — it’
 - **Automation & AI Agents:**  
   Creating intelligent workflows for lead generation, outreach, and content transformation using platforms like n8n, Zapier, Make.com, and Python.
 
-- **Upwork Client Work:**  
+- **Freelance Client Work:**  
   Supporting startups and creators with custom automations, integrations, and backend support — with a strong focus on clarity, delivery, and results.
 
 - **Learning in Public:**  
