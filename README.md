@@ -2,7 +2,7 @@
 
 Hi! I’m Didi, a developer passionate about building real-world solutions at the intersection of **automation, AI, and DevOps**.
 
-I'm currently working as a freelancer, helping clients automate and scale their workflows with:
+Helping clients automate and scale their workflows with:
 
 - **n8n**, **Zapier**, **Make.com**, and **Python**  
 - **Custom API integrations**, database syncs, webhook logic, and AI-enhanced automations
