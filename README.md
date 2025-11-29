@@ -26,10 +26,10 @@ That early curiosity for operating systems and protocols never left me — it's 
   Building RAG (Retrieval-Augmented Generation) bots and intelligent workflows for eCommerce businesses in Germany. Creating custom automations for lead generation, customer support, and business process optimization using n8n, Zapier, Make.com, and Python.
 
 - **Production Cloud Infrastructure:**  
-  Deployed and maintaining multiple AWS production systems using S3, CloudFront, Lambda, Route 53. Implemented secure CI/CD with GitHub Actions + OIDC (no hardcoded credentials). Cost-optimized migrations saving €57+/year. Infrastructure as Code with Terraform. **3 live systems currently running.**
+  Deployed and maintaining multiple AWS production systems using S3, CloudFront, Lambda, Route 53. Implemented secure CI/CD with GitHub Actions + OIDC (no hardcoded credentials). Cost-optimized migrations. Infrastructure as Code with Terraform. **3 live systems currently running.**
 
 - **eCommerce Automation Specialist:**  
-  Working with Phillip's eCommerce automation brand, building custom RAG bots and n8n workflows for German eCommerce clients. Specialized in AI-powered customer support, inventory management automation, and intelligent business process workflows.
+  Supporting eComOS's eCommerce automation brand, building custom RAG bots and n8n workflows for German eCommerce clients. Specialized in AI-powered customer support, inventory management automation, and intelligent business process workflows.
 
 - **Freelance Client Work:**  
   Supporting startups and creators with custom automations, integrations, and backend support — with a strong focus on clarity, delivery, and results.
