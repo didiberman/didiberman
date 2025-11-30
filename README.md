@@ -22,7 +22,7 @@ That early foundational knowledge of operating systems and protocols is what dri
 Beyond learning, I build and maintain live infrastructure where uptime and cost matter.
 
 - **Multi-Site AWS Hosting:** Deployed Terraform-managed S3 + CloudFront infrastructure for multiple live domains with global CDN distribution.
-- **Cost Engineering:** Migrated a Telegram analytics bot from paid hosting to AWS Lambda (Free Tier), achieving **€57/year savings (90% reduction)**.
+- **Cost Engineering:** Migrated a Telegram analytics bot from paid hosting to AWS Lambda (Free Tier), achieving **80% reduction**.
 - **Security-First CI/CD:** Implemented OIDC authentication for GitHub Actions → AWS to eliminate hardcoded credentials.
 - **eCommerce Automation:** Currently maintaining production RAG bots and n8n workflows for a German eCommerce agency, handling customer support and inventory logic.
 
