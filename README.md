@@ -11,7 +11,7 @@ At the same time, I am **building in public**—deploying production AWS infrast
 
 ---
 
-## 🧑‍💻 The "Deep Tech" Roots
+## 🧑‍💻 My roots
 My journey began at age 12, compiling kernels on **FreeBSD**, experimenting with **Red Hat**, and reverse engineering **TCP/IP stacks**. I wrote my first programs in **C** and developed a deep fascination for how systems and networks function under the hood.
 
 That early foundational knowledge of operating systems and protocols is what drives me today. I approach modern DevOps not just as "tooling," but with a systems-engineering mindset.
