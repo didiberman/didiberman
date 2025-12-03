@@ -22,7 +22,7 @@ That early foundational knowledge of operating systems and protocols is what dri
 Beyond learning, I build and maintain live infrastructure where uptime and cost matter.
 
 - **Multi-Site AWS Hosting:** Deployed Terraform-managed S3 + CloudFront infrastructure for multiple live domains with global CDN distribution.
-- **Cost Engineering:** Migrated a Telegram analytics bot from paid hosting to AWS Lambda (Free Tier), achieving **80% reduction**.
+- **Cost Engineering:** Migrated a Telegram analytics bot from paid hosting to AWS Lambda (Free Tier), achieving **80% cost reduction**.
 - **Security-First CI/CD:** Implemented OIDC authentication for GitHub Actions → AWS to eliminate hardcoded credentials.
 - **eCommerce Automation:** Currently maintaining production RAG bots and n8n workflows for a German eCommerce agency, handling customer support and inventory logic.
 
@@ -35,6 +35,11 @@ Beyond learning, I build and maintain live infrastructure where uptime and cost 
 A production-grade serverless platform built in **one day** using reusable patterns.
 - 🏗️ **Tech:** Terraform, AWS Lambda, API Gateway, S3, CloudFront, OIDC.
 - 💡 **Outcome:** Instant deployment of static sites costs ~$0.00/month.
+
+### 🔹 [Serverless Telegram Transcription Bot](https://github.com/didiberman/tf-telegram-serverless-transcription-aws) ⭐ NEW
+**Voice-to-text for Telegram using AWS Transcribe. 100% Serverless.**
+- 🏗️ **Tech:** Terraform, AWS Lambda (Node.js), S3, AWS Transcribe.
+- 💡 **Outcome:** Private, cost-effective voice note transcription with zero idle costs.
 
 ### 🔹 [Instagram Lead Hunter AI](https://github.com/didiberman/insta-lead-hunter-ai)
 AI-enhanced scraping system that identifies and qualifies leads based on custom business criteria.
