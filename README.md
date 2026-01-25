@@ -95,8 +95,8 @@ Building modular, observable backend systems with a focus on "Human-in-the-Loop"
 
 ## 🏆 Certifications
 
-- ✅ **AWS Certified Cloud Practitioner (CLF-C02)** — *Passed with Score 856*
-- ✅ **AWS Certified Solutions Architect Associate (SAA-C03)** — *Passed*
+- ✅ **AWS Certified Cloud Practitioner (CLF-C02)**
+- ✅ **AWS Certified Solutions Architect Associate (SAA-C03)**
 - 🔄 **Certified Kubernetes Administrator (CKA)** — *Target: Feb 23, 2026*
 
 ---
