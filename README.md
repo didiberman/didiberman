@@ -30,7 +30,13 @@ Beyond learning, I build and maintain live infrastructure where uptime and cost 
 
 ## 🚀 Featured Projects
 
-### 🔹 [ChatOps Static Site Platform](https://github.com/didiberman/terraform-aws-chatops-site) ⭐ NEW
+### 🔹 [KubeLab — Production k3s on Hetzner Cloud](https://github.com/didiberman/kubelab) ⭐ NEW
+**Multi-region Kubernetes cluster with GitOps. One-command deploy.**
+- 🏗️ **Tech:** Terraform, k3s, Hetzner Cloud, ArgoCD, Traefik, cloud-init.
+- 💡 **Demonstrates:** Infrastructure as Code, multi-node cluster, private networking, auto-join workers, load balancer, GitOps deployment.
+- 💰 **Cost:** ~€17/month for 3-node production cluster.
+
+### 🔹 [ChatOps Static Site Platform](https://github.com/didiberman/terraform-aws-chatops-site)
 **Deploy websites by texting a Telegram bot. Zero servers. Zero maintenance.**
 A production-grade serverless platform built in **one day** using reusable patterns.
 - 🏗️ **Tech:** Terraform, AWS Lambda, API Gateway, S3, CloudFront, OIDC.
@@ -78,10 +84,13 @@ Building modular, observable backend systems with a focus on "Human-in-the-Loop"
 - ☁️ **AWS Solutions Architect Associate (SAA-C03)** — *Target: Q1 2026*
 - ☸️ **Certified Kubernetes Administrator (CKA)** — *Target: 2026*
 
-**Lab Environment:**
-- **Kubernetes:** K3s, Helm, ArgoCD, Traefik
-- **Observability:** Prometheus, Grafana, Loki
-- **Security:** OIDC, RBAC, Secret Management
+**Active Lab (KubeLab):**
+- **Cluster:** k3s on Hetzner Cloud (multi-region: fsn1 + hel1)
+- **GitOps:** ArgoCD for declarative app deployment
+- **Networking:** Private VPC, Traefik ingress, Hetzner Load Balancer
+- **IaC:** Terraform with modular structure, cloud-init bootstrap
+- **Observability:** Prometheus, Grafana, Loki (planned)
+- **Security:** Pre-shared tokens, RBAC, firewall rules
 
 ---
 
