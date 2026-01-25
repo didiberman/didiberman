@@ -87,6 +87,7 @@ Building modular, observable backend systems with a focus on "Human-in-the-Loop"
 
 **Current Focus:**
 - ☸️ **Certified Kubernetes Administrator (CKA)** — *Exam: Feb 23, 2026*
+- 🤖 **AWS Certified Generative AI Developer – Professional (AP1-C01)** — *Target: March 22, 2026*
 
 **Active Lab (KubeLab):**
 - **Cluster:** k3s on Hetzner Cloud (multi-region: fsn1 + hel1)
@@ -103,6 +104,7 @@ Building modular, observable backend systems with a focus on "Human-in-the-Loop"
 - ✅ **AWS Certified Cloud Practitioner (CLF-C02)**
 - ✅ **AWS Certified Solutions Architect Associate (SAA-C03)**
 - 🔄 **Certified Kubernetes Administrator (CKA)** — *Target: Feb 23, 2026*
+- 🔄 **AWS Certified Generative AI Developer – Professional (AP1-C01)** — *Target: March 22, 2026*
 
 ---
 
