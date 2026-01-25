@@ -36,6 +36,11 @@ Beyond learning, I build and maintain live infrastructure where uptime and cost 
 - 💡 **Demonstrates:** Infrastructure as Code, multi-node cluster, private networking, auto-join workers, load balancer, GitOps deployment.
 - 💰 **Cost:** ~€17/month for 3-node production cluster.
 
+### 🔹 [Content Machine — AI Video Generator](https://github.com/didiberman/content-machine) ⭐ NEW
+**Serverless bot that generates 10-second videos from text or voice instructions.**
+- 🏗️ **Tech:** AWS Lambda, Telegram Bot, Multi-Agent AI Pipeline, Human-in-the-Loop.
+- 💡 **Demonstrates:** Agentic AI orchestration, script approval workflow, voice-to-video automation.
+
 ### 🔹 [ChatOps Static Site Platform](https://github.com/didiberman/terraform-aws-chatops-site)
 **Deploy websites by texting a Telegram bot. Zero servers. Zero maintenance.**
 A production-grade serverless platform built in **one day** using reusable patterns.
@@ -95,8 +100,8 @@ Building modular, observable backend systems with a focus on "Human-in-the-Loop"
 
 ## 🏆 Certifications
 
-- ✅ **AWS Certified Cloud Practitioner (CLF-C02)**
-- ✅ **AWS Certified Solutions Architect Associate (SAA-C03)**
+- ✅ **AWS Certified Cloud Practitioner (CLF-C02)** — *Passed with Score 856*
+- ✅ **AWS Certified Solutions Architect Associate (SAA-C03)** — *Passed*
 - 🔄 **Certified Kubernetes Administrator (CKA)** — *Target: Feb 23, 2026*
 
 ---
