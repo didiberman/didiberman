@@ -81,8 +81,7 @@ Building modular, observable backend systems with a focus on "Human-in-the-Loop"
 ## 📚 Continuous Learning Path
 
 **Current Focus:**
-- ☁️ **AWS Solutions Architect Associate (SAA-C03)** — *Target: Q1 2026*
-- ☸️ **Certified Kubernetes Administrator (CKA)** — *Target: 2026*
+- ☸️ **Certified Kubernetes Administrator (CKA)** — *Exam: Feb 23, 2026*
 
 **Active Lab (KubeLab):**
 - **Cluster:** k3s on Hetzner Cloud (multi-region: fsn1 + hel1)
@@ -97,7 +96,8 @@ Building modular, observable backend systems with a focus on "Human-in-the-Loop"
 ## 🏆 Certifications
 
 - ✅ **AWS Certified Cloud Practitioner (CLF-C02)** — *Passed with Score 856*
-- 🔄 **AWS Certified Solutions Architect Associate (SAA-C03)** — *In Progress*
+- ✅ **AWS Certified Solutions Architect Associate (SAA-C03)** — *Passed*
+- 🔄 **Certified Kubernetes Administrator (CKA)** — *Target: Feb 23, 2026*
 
 ---
 
