@@ -18,7 +18,7 @@ That early foundational knowledge of operating systems and protocols is what dri
 
 ---
 
-## 💼 Real-World Production Systems
+## 💼 Production Systems
 Beyond learning, I build and maintain live infrastructure where uptime and cost matter.
 
 - **Multi-Site AWS Hosting:** Deployed Terraform-managed S3 + CloudFront infrastructure for multiple live domains with global CDN distribution.
