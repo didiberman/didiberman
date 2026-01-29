@@ -5,9 +5,9 @@ Hi! I'm Didi, a technologist building real-world solutions at the intersection o
 I help businesses scale their workflows by engineering:
 - **Intelligent RAG Agents** for eCommerce (customer support & sales)
 - **Complex Automation Pipelines** using n8n, Python, and AWS
-- **Resilient Cloud Infrastructure** with Terraform and GitOps practices
+- **Resilient Cloud Infrastructure** with Terraform, Kubernetes, and GitOps practices
 
-At the same time, I am **building in public**—deploying production AWS infrastructure, running Kubernetes home labs, and mastering the modern DevOps stack through hands-on implementation.
+At the same time, I am **building in public**—deploying production AWS infrastructure, running Kubernetes clusters, and expanding my skills & knowledge in the modern DevOps stack through hands-on implementation.
 
 ---
 
