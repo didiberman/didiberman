@@ -24,7 +24,7 @@ Beyond learning, I build and maintain live infrastructure where uptime and cost 
 - **Multi-Site AWS Hosting:** Deployed Terraform-managed S3 + CloudFront infrastructure for multiple live domains with global CDN distribution.
 - **Cost Engineering:** Migrated a Telegram analytics bot from paid hosting to AWS Lambda (Free Tier), achieving **80% cost reduction**.
 - **Security-First CI/CD:** Implemented OIDC authentication for GitHub Actions → AWS to eliminate hardcoded credentials.
-- **eCommerce Automation:** Currently maintaining production RAG bots and n8n workflows for a German eCommerce agency, handling customer support and inventory logic.
+- **eCommerce Automation:** Currently maintaining production RAG bots and n8n workflows for a German eCommerce agency.
 
 ---
 
@@ -73,7 +73,7 @@ Educational tool for exploring networking and security via simulated TCP session
 Building RAG (Retrieval-Augmented Generation) bots and intelligent workflows. Expert in **n8n**, **Zapier**, **Make.com**, and **Python** for connecting disparate systems (APIs, Webhooks, Databases).
 
 **☁️ Cloud Infrastructure (AWS)**
-Deploying secure, scalable systems using S3, CloudFront, Lambda, and Route 53. Strong focus on **Infrastructure as Code (Terraform)** and **Cost Optimization**.
+Deploying secure, scalable systems using S3, CloudFront, Lambda, and Route 53, AWS BedRock & SageMaker. Strong focus on **Infrastructure as Code (Terraform)** and **Cost Optimization**.
 
 **🔄 DevOps & GitOps**
 Practical implementation of CI/CD (GitHub Actions), Secret Management (Vault/Sealed Secrets), and Container Orchestration (Docker/Kubernetes).
