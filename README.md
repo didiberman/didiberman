@@ -8,6 +8,9 @@ These days I work at the intersection of **DevOps, Cloud, and AI**. I help busin
 
 **[Hetzner-Kubelab-Pipeline](https://github.com/didiberman/terraform-k8s-argocd-cicd-pipeline)** - Deploy 1 master node and 3 worker nodes on Hetzner, with a basic application + CI/CD pipeline with ArgoCD + Prometheus + Grafana
 
+
+**[Terraform-K8s-Kusama-Validator-Project](https://github.com/didiberman/terraform-kusama-k8s-validator-project)** - A cluster of Kusama validators that can expand / contract 
+
 **[Content Machine](https://github.com/didiberman/content-machine)** - A serverless AI video generator. Send a text or voice message, get a video back. Built with AWS Lambda and a multi-agent AI pipeline.
 
 **[ChatOps Static Site Platform](https://github.com/didiberman/terraform-aws-chatops-site)** - Deploy websites by texting a Telegram bot. Built in one day using patterns I'd refined over months. Costs essentially nothing to run.
