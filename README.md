@@ -30,13 +30,13 @@ Beyond learning, I build and maintain live infrastructure where uptime and cost 
 
 ## 🚀 Featured Projects
 
-### 🔹 [KubeLab - Production k3s on Hetzner Cloud](https://github.com/didiberman/kubelab) ⭐ NEW
+### 🔹 [KubeLab - Production k3s on Hetzner Cloud](https://github.com/didiberman/kubelab)
 **Multi-region Kubernetes cluster with GitOps. One-command deploy.**
 - 🏗️ **Tech:** Terraform, k3s, Hetzner Cloud, ArgoCD, Traefik, cloud-init.
 - 💡 **Demonstrates:** Infrastructure as Code, multi-node cluster, private networking, auto-join workers, load balancer, GitOps deployment.
 - 💰 **Cost:** ~€17/month for 3-node production cluster.
 
-### 🔹 [Content Machine - AI Video Generator](https://github.com/didiberman/content-machine) ⭐ NEW
+### 🔹 [Content Machine - AI Video Generator](https://github.com/didiberman/content-machine)
 **Serverless bot that generates 10-second videos from text or voice instructions.**
 - 🏗️ **Tech:** AWS Lambda, Telegram Bot, Multi-Agent AI Pipeline, Human-in-the-Loop.
 - 💡 **Demonstrates:** Agentic AI orchestration, script approval workflow, voice-to-video automation.
