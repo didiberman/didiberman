@@ -1,4 +1,4 @@
-# Hey, I'm Didi 👋
+# Hey, I'm Didi
 
 I've been taking computers apart (and occasionally putting them back together) since I was 12, when I was compiling FreeBSD kernels and reverse-engineering TCP/IP stacks for fun. That obsession with understanding *how things actually work* never went away - it just evolved into building cloud infrastructure, automation pipelines, and AI systems.
 
