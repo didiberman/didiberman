@@ -1,82 +1,38 @@
-# Didi — AI, Automation & MLOps Engineer
+# Hey, I'm Didi
 
-Hi! I’m Didi, a developer passionate about building real-world solutions at the intersection of **automation, AI, and MLOps / DevOps**. 
+I've been taking computers apart (and occasionally putting them back together) since I was 12, when I was compiling FreeBSD kernels and reverse-engineering TCP/IP stacks for fun. That obsession with understanding *how things actually work* never went away - it just evolved into building cloud infrastructure, automation pipelines, and AI systems.
 
-My GitHub is a living portfolio of projects that blend practical engineering, end-to-end machine learning workflows, and a commitment to learning in public and sharing knowledge.
+These days I work at the intersection of **DevOps, Cloud, and AI**. I help businesses automate their workflows, and I build my own production systems where uptime and cost actually matter.
 
-Alongside my technical work, I bring a deep commitment to inner work and human development. 
+## What I'm Building
 
-I'm a dedicated **Vipassana** meditator and currently training in **Collective Trauma Healing** Facilitation — aiming to bridge tech engineering with high emotional intelligence and trauma-informed awareness.
+**[KubeLab](https://github.com/didiberman/kubelab)** - A production k3s cluster on Hetzner Cloud with GitOps. Multi-region, Terraform-managed, ArgoCD-deployed. Runs for ~€17/month. This is my learning lab and my playground.
 
----
+**[Content Machine](https://github.com/didiberman/content-machine)** - A serverless AI video generator. Send a text or voice message, get a video back. Built with AWS Lambda and a multi-agent AI pipeline.
 
-## 🌟 Core Competencies
+**[ChatOps Static Site Platform](https://github.com/didiberman/terraform-aws-chatops-site)** - Deploy websites by texting a Telegram bot. Built in one day using patterns I'd refined over months. Costs essentially nothing to run.
 
-- **AI Automation:**  
-  Creating intelligent agents and tools for lead generation, outreach, and content transformation with platforms like n8n, zapier, make.com.
+**[Serverless Transcription Bot](https://github.com/didiberman/tf-telegram-serverless-transcription-aws)** - Voice notes to text via AWS Transcribe. 100% serverless, zero idle costs.
 
-- **Learning in Public:**  
-  Designing open-source curricula and sharing insights as I deepen my expertise in MLOps and AI deployment.
+I also maintain production RAG bots and n8n workflows for a German eCommerce agency - real systems, real users, real consequences when things break.
 
-- **End-to-End MLOps:**  
-  Training, fine-tuning, and deploying ML models using production-ready stacks — PyTorch, Hugging Face, FastAPI, Docker, GitHub Actions, and Kubernetes.
+## The Boring-But-Important Stuff
 
-- **Deep Learning (NLP):**  
-  Proficient in transformer architectures and emotional classification models using PyTorch.
+- **Certifications:** AWS Cloud Practitioner ✓, AWS Solutions Architect Associate ✓, CKA (Feb 2026), AWS GenAI Developer (March 2026)
+- **Stack:** Terraform, Kubernetes, AWS (Lambda, S3, CloudFront, Bedrock), Python, n8n, Docker, GitHub Actions
+- **Philosophy:** Infrastructure as Code, GitOps, cost optimization, and building systems that serve humans (not the other way around)
 
-- **Full-Stack Engineering:**  
-  Building scalable applications and APIs using Python, TypeScript, React, Vite, Tailwind, and mobile frameworks.
+## Other Projects
 
-- **DevOps & System Insight:**  
-  Experience with CI/CD pipelines, containerization, networking, and security-focused educational tooling.
+If you want to dig deeper, here are some older experiments:
 
-
----
-
-## 🚀 Featured Projects
-
-### 🔹 [Instagram Lead Hunter AI](https://github.com/didiberman/insta-lead-hunter-ai)  
-AI-enhanced system for scraping and qualifying Instagram leads based on custom criteria.
-
-### 🔹 [YouTube → Medium Agent](https://github.com/didiberman/youtube-medium-article-agent)  
-Turns YouTube videos into readable Medium articles using prompt engineering and AI workflows.
-
-### 🔹 [YT Deep Insights Agent](https://github.com/didiberman/yt-deep-insights-agent)  
-Extracts and summarizes content from YouTube videos into actionable insights.
-
-### 🔹 [YouTube Comment Classifier (MLOps)](https://github.com/didiberman/youtube-comment-classifier-mlops)  
-Fine-tuned DistilBERT model for classifying YouTube comments into emotional categories.  
-> Includes Dockerized FastAPI server, CI/CD with GitHub Actions, and K3s-ready deployment.
-
-### 🔹 [MLOps Curriculum App](https://github.com/didiberman/mlops-curriculum-app)  
-A week-by-week interactive learning tracker to guide engineers through core MLOps concepts.
-
-### 🔹 [AI Personalized Lead Agent](https://github.com/didiberman/ai-personalized-lead-agent)  
-An n8n agent that automates AI-powered lead messaging and scoring.
-
-### 🔹 [Mobile BreathApp](https://github.com/didiberman/mobile-breathapp)  
-Wellness mobile app for guided breathwork and meditation.
-
-### 🔹 [TCP Hijacker Classic](https://github.com/didiberman/tcp-hijacker-classic)  
-Educational tool for exploring networking and security via simulated TCP session hijacking.
+- [Instagram Lead Hunter AI](https://github.com/didiberman/insta-lead-hunter-ai) - AI-enhanced lead qualification
+- [YouTube → Medium Agent](https://github.com/didiberman/youtube-medium-article-agent) - Automated video-to-article pipeline
+- [YouTube Comment Classifier](https://github.com/didiberman/youtube-comment-classifier-mlops) - MLOps pipeline with FastAPI + K3s
+- [TCP Hijacker Classic](https://github.com/didiberman/tcp-hijacker-classic) - Educational networking/security tool (a callback to my early days)
 
 ---
 
-## 🎯 Skils & Qualities
+**Currently:** Preparing for CKA, running KubeLab, and exploring for DevOps/Cloud Engineering opportunities in Germany.
 
-- **Breadth & Depth:**  
-  Skilled across Python, TypeScript, Java, C, PHP — plus DevOps, automation, and ML pipelines.
-
-- **Production-Readiness:**  
-  Real-world, scalable workflows from model development to deployment and monitoring.
-
-- **Open Source & Initiative:**  
-  From curriculum design to tooling — built to share, teach, and empower.
-
-- **Problem-Solving Mindset:**  
-  Whether in AI, automation, or wellness — I build solutions that serve real human needs.
-
----
-
-Let’s collaborate, contribute, or learn together.  
-🔗 [View Portfolio → didiberman.com](https://didiberman.com)
+[didiberman.com](https://didiberman.com)
