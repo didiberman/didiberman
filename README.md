@@ -1,4 +1,4 @@
-# Didi — AI, Automation & Cloud Solutions Engineer
+# Didi - AI, Automation & Cloud Solutions Engineer
 
 Hi! I'm Didi, a technologist building real-world solutions at the intersection of **Automation, AI, and DevOps**.
 
@@ -7,7 +7,7 @@ I help businesses scale their workflows by engineering:
 - **Complex Automation Pipelines** using n8n, Python, and AWS
 - **Resilient Cloud Infrastructure** with Terraform, Kubernetes, and GitOps practices
 
-At the same time, I am **building in public**—deploying production AWS infrastructure, running Kubernetes clusters, and expanding my skills & knowledge in the modern DevOps stack through hands-on implementation.
+At the same time, I am **building in public**-deploying production AWS infrastructure, running Kubernetes clusters, and expanding my skills & knowledge in the modern DevOps stack through hands-on implementation.
 
 ---
 
@@ -30,13 +30,13 @@ Beyond learning, I build and maintain live infrastructure where uptime and cost 
 
 ## 🚀 Featured Projects
 
-### 🔹 [KubeLab — Production k3s on Hetzner Cloud](https://github.com/didiberman/kubelab) ⭐ NEW
+### 🔹 [KubeLab - Production k3s on Hetzner Cloud](https://github.com/didiberman/kubelab) ⭐ NEW
 **Multi-region Kubernetes cluster with GitOps. One-command deploy.**
 - 🏗️ **Tech:** Terraform, k3s, Hetzner Cloud, ArgoCD, Traefik, cloud-init.
 - 💡 **Demonstrates:** Infrastructure as Code, multi-node cluster, private networking, auto-join workers, load balancer, GitOps deployment.
 - 💰 **Cost:** ~€17/month for 3-node production cluster.
 
-### 🔹 [Content Machine — AI Video Generator](https://github.com/didiberman/content-machine) ⭐ NEW
+### 🔹 [Content Machine - AI Video Generator](https://github.com/didiberman/content-machine) ⭐ NEW
 **Serverless bot that generates 10-second videos from text or voice instructions.**
 - 🏗️ **Tech:** AWS Lambda, Telegram Bot, Multi-Agent AI Pipeline, Human-in-the-Loop.
 - 💡 **Demonstrates:** Agentic AI orchestration, script approval workflow, voice-to-video automation.
@@ -63,7 +63,7 @@ A complete MLOps pipeline to categorize emotional tone.
 > Includes Dockerized FastAPI server, CI/CD with GitHub Actions, and K3s-ready deployment.
 
 ### 🔹 [TCP Hijacker Classic](https://github.com/didiberman/tcp-hijacker-classic)
-Educational tool for exploring networking and security via simulated TCP session hijacking.
+Educational tool for exploring networking and security via simulated TCP session hijacking. 
 
 ---
 
@@ -79,15 +79,15 @@ Deploying secure, scalable systems using S3, CloudFront, Lambda, and Route 53, A
 Practical implementation of CI/CD (GitHub Actions), Secret Management (Vault/Sealed Secrets), and Container Orchestration (Docker/Kubernetes).
 
 **🧠 System Design**
-Building modular, observable backend systems with a focus on "Human-in-the-Loop" architecture—ensuring automation serves the user, not the other way around.
+Building modular, observable backend systems with a focus on "Human-in-the-Loop" architecture-ensuring automation serves the user, not the other way around.
 
 ---
 
 ## 📚 Continuous Learning Path
 
 **Current Focus:**
-- ☸️ **Certified Kubernetes Administrator (CKA)** — *Exam: Feb 23, 2026*
-- 🤖 **AWS Certified Generative AI Developer – Professional (AP1-C01)** — *Target: March 22, 2026*
+- ☸️ **Certified Kubernetes Administrator (CKA)** - *Exam: Feb 23, 2026*
+- 🤖 **AWS Certified Generative AI Developer – Professional (AP1-C01)** - *Target: March 22, 2026*
 
 **Active Lab (KubeLab):**
 - **Cluster:** k3s on Hetzner Cloud (multi-region: fsn1 + hel1)
@@ -103,8 +103,8 @@ Building modular, observable backend systems with a focus on "Human-in-the-Loop"
 
 - ✅ **AWS Certified Cloud Practitioner (CLF-C02)**
 - ✅ **AWS Certified Solutions Architect Associate (SAA-C03)**
-- 🔄 **Certified Kubernetes Administrator (CKA)** — *Target: Feb 23, 2026*
-- 🔄 **AWS Certified Generative AI Developer – Professional (AP1-C01)** — *Target: March 22, 2026*
+- 🔄 **Certified Kubernetes Administrator (CKA)** - *Target: Feb 23, 2026*
+- 🔄 **AWS Certified Generative AI Developer – Professional (AP1-C01)** - *Target: March 22, 2026*
 
 ---
 
