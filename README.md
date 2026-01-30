@@ -6,7 +6,7 @@ These days I work at the intersection of **DevOps, Cloud, and AI**. I help busin
 
 ## What I'm Building
 
-**[Hetzner-Kubelab-Pipeline](https://github.com/didiberman/terraform-k8s-argocd-cicd-pipeline)** - Kubernetes deployment pipeline with ArgoCD and Terraform. 
+**[Hetzner-Kubelab-Pipeline](https://github.com/didiberman/terraform-k8s-argocd-cicd-pipeline)** - Deploy 1 master node and 3 worker nodes on Hetzner, with a basic application + CI/CD pipeline with ArgoCD + Prometheus + Grafana
 
 **[Content Machine](https://github.com/didiberman/content-machine)** - A serverless AI video generator. Send a text or voice message, get a video back. Built with AWS Lambda and a multi-agent AI pipeline.
 
