@@ -6,7 +6,7 @@ These days I work at the intersection of **DevOps, Cloud, and AI**. I help busin
 
 ## What I'm Building
 
-**[Hetzner-Kubelab-Pipeline](https://github.com/didiberman/terraform-k8s-argocd-cicd-pipeline)** - Deploy 1 master node and 3 worker nodes on Hetzner, with a basic application + CI/CD pipeline with ArgoCD + Prometheus + Grafana
+**[Hetzner-Kubelab-Pipeline](https://github.com/didiberman/terraform-k8s-argocd-cicd-pipeline)** - Deploy 1 master node and 4 worker nodes on Hetzner, with a basic application + CI/CD pipeline with ArgoCD + Prometheus + Grafana
 
 
 **[Terraform-K8s-Kusama-Validator-Project](https://github.com/didiberman/terraform-kusama-k8s-validator-project)** - A cluster of Kusama validators that can expand / contract 
