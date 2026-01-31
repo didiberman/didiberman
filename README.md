@@ -4,7 +4,7 @@ I've been taking computers apart (and occasionally putting them back together) s
 
 These days I work at the intersection of **DevOps, Cloud, and AI**. I help businesses automate their workflows, and I build my own production systems where uptime and cost actually matter.
 
-## What I'm Building
+## What I'm Exploring
 
 **[Hetzner-Kubelab-Pipeline](https://github.com/didiberman/terraform-k8s-argocd-cicd-pipeline)** - Deploy 1 master node and 4 worker nodes on Hetzner, with a basic application + CI/CD pipeline with ArgoCD + Prometheus + Grafana
 
