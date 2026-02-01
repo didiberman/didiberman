@@ -11,7 +11,7 @@ These days I work at the intersection of **DevOps, Cloud, and AI**. I help busin
 
 **[Terraform-K8s-Kusama-Validator-Project](https://github.com/didiberman/terraform-kusama-k8s-validator-project)** - A cluster of Kusama validators that can expand / contract 
 
-**[Video Generating SaaS](https://github.com/didiberman/video-music-saas-serverless-terraform)** - A serverless AI video generator SaaS with Frontend. Send a text or voice message, get a video back. Built with Google Cloud Run Functions.
+**[Video / Song Generating SaaS](https://github.com/didiberman/video-music-saas-serverless-terraform)** - A serverless AI video generator SaaS with Frontend. Send a text or voice message, get a video back. Built with Google Cloud Run Functions.
 
 **[Content Machine](https://github.com/didiberman/content-machine)** - A serverless AI video generator. Send a text or voice message, get a video back. Built with AWS Lambda and a multi-agent AI pipeline.
 
