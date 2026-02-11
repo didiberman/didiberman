@@ -38,6 +38,6 @@ If you want to dig deeper, here are some older experiments:
 
 ---
 
-**Currently:** Preparing for CKA, running KubeLab, and exploring for DevOps/Cloud Engineering opportunities in Germany.
+**Currently:** Working with my freelance clients, preparing for CKA, running KubeLab, and exploring for DevOps/Cloud Engineering opportunities in Germany.
 
 [didiberman.com](https://didiberman.com)
