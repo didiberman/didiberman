@@ -6,6 +6,8 @@ These days I work at the intersection of **DevOps, Cloud, and AI**. I help busin
 
 ## What I'm Exploring
 
+**[NinjaDevOps](https://ninjadevops.com)** - An interactive DevOps challenge platform with 18 real-world Linux emergencies in live Google Cloud VMs. Debug broken servers, fix misconfigurations, and deploy under pressure. Built with React, Firebase, and GCE.
+
 **[Hetzner-Kubelab-Pipeline](https://github.com/didiberman/terraform-k8s-argocd-cicd-pipeline)** - Deploy 1 master node and 4 worker nodes on Hetzner, with a basic application + CI/CD pipeline with ArgoCD + Prometheus + Grafana
 
 
