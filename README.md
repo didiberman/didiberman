@@ -6,6 +6,8 @@ These days I work at the intersection of **DevOps, Cloud, and AI**. I help busin
 
 ## What I'm Exploring
 
+**[Tokenguard Operator](https://github.com/didiberman/tokenguard-operator)** - A Kubernetes operator that scores ServiceAccount least-privilege in real time by comparing granted RBAC permissions against actual audit log usage. Detects external IP token abuse for supply chain attack mitigation. Built with Go, Kubebuilder, controller-runtime, and GitHub Actions.
+
 **[NinjaDevOps](https://ninjadevops.com)** - An interactive DevOps challenge platform with 23 real-world Linux emergencies (Docker, Kubernetes, DNS, etc) in live Google Cloud VMs. Debug broken servers, fix misconfigurations, and deploy under pressure. Built with React, Firebase, Google Cloud Run, Compute Engine, GitHub Actions.
 
 **[Hetzner-Kubelab-Pipeline](https://github.com/didiberman/terraform-k8s-argocd-cicd-pipeline)** - Deploy 1 master node and 4 worker nodes on Hetzner, with a basic application + CI/CD pipeline with ArgoCD + Prometheus + Grafana
