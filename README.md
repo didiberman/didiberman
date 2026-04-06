@@ -6,6 +6,8 @@ These days I work at the intersection of **DevOps, Cloud, and AI**. I help busin
 
 ## What I'm Exploring
 
+ **[K3s-Ollama-Stack](https://github.com/didiberman/k3s-ollama-stack)** - A self-hosted LLM inference platform on Hetzner Cloud. Provisions a K3s cluster with Terraform, deploys Ollama and OpenWebUI via ArgoCD GitOps, and persists models on a dedicated volume. Built with Terraform, Kubernetes, ArgoCD, and Ollama.
+
 **[Tokenguard Operator](https://github.com/didiberman/tokenguard-operator)** - A Kubernetes operator that scores ServiceAccount least-privilege in real time by comparing granted RBAC permissions against actual audit log usage. Detects external IP token abuse for supply chain attack mitigation. Built with Go, Kubebuilder, controller-runtime, and GitHub Actions.
 
 **[NinjaDevOps](https://ninjadevops.com)** - An interactive DevOps challenge platform with 23 real-world Linux emergencies (Docker, Kubernetes, DNS, etc) in live Google Cloud VMs. Debug broken servers, fix misconfigurations, and deploy under pressure. Built with React, Firebase, Google Cloud Run, Compute Engine, GitHub Actions.
@@ -27,7 +29,7 @@ I also maintain production RAG bots and n8n workflows for a German eCommerce age
 
 ## The Boring-But-Important Stuff
 
-- **Certifications:** AWS Cloud Practitioner ✓, AWS Solutions Architect Associate ✓, Certified Kubernetes Administrator - CKA (March 2026), Certified Kubernetes Application Developer - CKAD (March 2026), currently finalising the Certified Kubernetes Security Specialist (CKS) - Apr 20.
+- **Certifications:** AWS Cloud Practitioner ✓, AWS Solutions Architect Associate ✓, Certified Kubernetes Administrator - CKA (March 2026), Certified Kubernetes Application Developer - CKAD (March 2026), Certified Kubernetes Security Specialist (CKS), KCNA + KCSA - Kubestronaut.
 - **Stack:** Terraform, Kubernetes, AWS (Lambda, S3, CloudFront, Bedrock), Python, n8n, Docker, GitHub Actions
 - **Philosophy:** Infrastructure as Code, GitOps, cost optimization, and building systems that serve humans (not the other way around)
 
