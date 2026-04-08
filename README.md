@@ -6,7 +6,9 @@ These days I work at the intersection of **DevOps, Cloud, and AI**. I help busin
 
 ## What I'm Exploring
 
- **[K3s-Ollama-Stack](https://github.com/didiberman/k3s-ollama-stack)** - A self-hosted LLM inference platform on Hetzner Cloud. Provisions a K3s cluster with Terraform, deploys Ollama and OpenWebUI via ArgoCD GitOps, and persists models on a dedicated volume. Built with Terraform, Kubernetes, ArgoCD, and Ollama.
+ **[Sovereign-Mesh](https://github.com/didiberman/sovereign-mesh)** - A secure, multi-tenant AI PaaS on Hetzner Cloud. Orchestrates private departmental RAG enclaves
+  using vLLM, Qdrant, and TEI on a Zero-Trust K3s cluster. Features CKS-grade isolation (Restricted PSA, NetworkPolicies) and automated MLOps GitOps workflows.
+  Built with Terraform, Kubernetes, ArgoCD, vLLM, and LangChain.
 
 **[Tokenguard Operator](https://github.com/didiberman/tokenguard-operator)** - A Kubernetes operator that scores ServiceAccount least-privilege in real time by comparing granted RBAC permissions against actual audit log usage. Detects external IP token abuse for supply chain attack mitigation. Built with Go, Kubebuilder, controller-runtime, and GitHub Actions.
 
