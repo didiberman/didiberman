@@ -6,7 +6,7 @@ These days I work at the intersection of **DevOps, Cloud, and AI**. I help busin
 
 ## What I'm Exploring
 
- **[Sovereign-Mesh](https://github.com/didiberman/sovereign-mesh)** - A secure, multi-tenant AI PaaS on Hetzner Cloud. Orchestrates private departmental RAG enclaves
+ **[Sovereign-Mesh](https://github.com/didiberman/sovereign-mesh-k8s)** - A secure, multi-tenant AI PaaS on Hetzner Cloud. Orchestrates private departmental RAG enclaves
   using vLLM, Qdrant, and TEI on a Zero-Trust K3s cluster. Features CKS-grade isolation (Restricted PSA, NetworkPolicies) and automated MLOps GitOps workflows.
   Built with Terraform, Kubernetes, ArgoCD, vLLM, and LangChain.
 
