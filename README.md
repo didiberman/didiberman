@@ -5,8 +5,8 @@ I've been taking computers apart (and occasionally putting them back together) s
 These days I work at the intersection of **DevOps, Cloud, and AI**. I help businesses automate their workflows, and I build my own production systems where uptime and cost actually matter.
 
 ## What I'm Exploring
- **[k0sdev-lab]((https://github.com/didiberman/k0sdev-lab))** - Provisions a Hetzner 2 node k0s cluster labratory via Terraform.
-  
+**[k0sdev-lab](https://github.com/didiberman/k0sdev-lab)** - Provisions a Hetzner 2 node k0s cluster labratory via Terraform.
+
  **[Sovereign-Mesh](https://github.com/didiberman/sovereign-mesh-k8s)** - A secure, multi-tenant AI PaaS on Hetzner Cloud. Orchestrates private departmental RAG enclaves
   using vLLM, Qdrant, and TEI on a Zero-Trust K3s cluster. Features CKS-grade isolation (Restricted PSA, NetworkPolicies) and automated MLOps GitOps workflows.
   Built with Terraform, Kubernetes, ArgoCD, vLLM, and LangChain.
