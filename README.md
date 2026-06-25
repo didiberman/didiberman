@@ -6,6 +6,8 @@ These days I work at the intersection of **DevOps, Cloud, and AI**. I help busin
 
 ## What I'm Exploring
 
+**[gke-labs](https://github.com/didiberman/gke-labs)** - Production-quality GKE lab environment with 18 guided exercises covering essential cloud-native technologies: GKE, Cloud SQL, Memorystore, Terraform IaC, Helm package management, CI/CD pipelines, observability stack, Temporal workflows, and incident response simulations..
+
 **[kratix-platform](https://github.com/didiberman/kratix-platform)** — Self-service Internal Developer Platform: Kratix + Backstage + Flux on k3s, deployed from scratch with one command.
 
 **[k0sdev-lab](https://github.com/didiberman/k0sdev-lab)** - Provisions a Hetzner 2 node k0s cluster labratory via Terraform.
