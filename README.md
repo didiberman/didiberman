@@ -6,7 +6,7 @@ These days I work at the intersection of **DevOps, Cloud, and AI**. I help busin
 
 ## What I'm Exploring
 
-**[practical-aks](https://github.com/didiberman/practical-aks)** - A guided build of real AKS infrastructure: from a blank subscription to a Workload Identity-secured, Trivy-scanned, CI/CD-wired cluster running a live LLM proxy.
+**[practical-aks](https://github.com/didiberman/practical-aks)** - A guided build of AKS infrastructure: from a blank subscription to a Workload Identity-secured, Trivy-scanned, CI/CD-wired cluster running a live LLM proxy.
 
 **[gke-labs](https://github.com/didiberman/gke-labs)** - Production-quality GKE lab environment with 18 guided exercises covering essential cloud-native technologies: GKE, Cloud SQL, Memorystore, Terraform IaC, Helm package management, CI/CD pipelines, observability stack, Temporal workflows, and incident response simulations..
 
