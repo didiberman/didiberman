@@ -6,6 +6,8 @@ These days I work at the intersection of **DevOps, Cloud, and AI**. I help busin
 
 ## What I'm Exploring
 
+**[practical-aks](https://github.com/didiberman/practical-aks)** - Highly available, secure AKS on Azure built for cheap. Covers Terraform IaC, Azure CNI Overlay, Workload Identity, Key Vault secrets management, ACR, a hardened Node.js LLM proxy, and dual CI/CD pipelines with MLOps prompt testing and Trivy security scanning.
+
 **[gke-labs](https://github.com/didiberman/gke-labs)** - Production-quality GKE lab environment with 18 guided exercises covering essential cloud-native technologies: GKE, Cloud SQL, Memorystore, Terraform IaC, Helm package management, CI/CD pipelines, observability stack, Temporal workflows, and incident response simulations..
 
 **[kratix-platform](https://github.com/didiberman/kratix-platform)** — Self-service Internal Developer Platform: Kratix + Backstage + Flux on k3s, deployed from scratch with one command.
