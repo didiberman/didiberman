@@ -6,7 +6,7 @@ These days I work at the intersection of **DevOps, Cloud, and AI**. I help busin
 
 ## What I'm Exploring
 
-**[practical-aks](https://github.com/didiberman/practical-aks)** - Highly available, secure AKS on Azure built for cheap. Covers Terraform IaC, Azure CNI Overlay, Workload Identity, Key Vault secrets management, ACR, a hardened Node.js LLM proxy, and dual CI/CD pipelines with MLOps prompt testing and Trivy security scanning.
+**[practical-aks](https://github.com/didiberman/practical-aks)** - A guided build of real AKS infrastructure: from a blank subscription to a Workload Identity-secured, Trivy-scanned, CI/CD-wired cluster running a live LLM proxy.
 
 **[gke-labs](https://github.com/didiberman/gke-labs)** - Production-quality GKE lab environment with 18 guided exercises covering essential cloud-native technologies: GKE, Cloud SQL, Memorystore, Terraform IaC, Helm package management, CI/CD pipelines, observability stack, Temporal workflows, and incident response simulations..
 
