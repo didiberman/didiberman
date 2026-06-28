@@ -15,7 +15,7 @@
 
 | Project | Description |
 |---|---|
-| **[practical-aks](https://github.com/didiberman/practical-aks)** | Guided AKS build: blank Azure subscription → Workload Identity-secured, Trivy-scanned cluster running a live LLM proxy. CI/CD pipeline includes supply chain hardening: SHA-pinned Actions and `harden-runner` network egress control — built in response to the March 2026 Trivy supply chain attack. |
+| **[practical-aks](https://github.com/didiberman/practical-aks)** | Guided AKS build: blank Azure subscription → Workload Identity-secured, Trivy-scanned cluster running a live LLM proxy. CI/CD pipeline includes supply chain hardening: SHA-pinned Actions and `harden-runner` network egress control — the kind of attack the March 2026 Trivy compromise demonstrated. |
 | **[gke-labs](https://github.com/didiberman/gke-labs)** | 18-exercise GKE lab covering Cloud SQL, Memorystore, Terraform, Helm, CI/CD, observability, Temporal workflows, and incident response. |
 | **[kratix-platform](https://github.com/didiberman/kratix-platform)** | Self-service IDP: Kratix + Backstage + Flux on k3s, deployed from scratch with one command. |
 | **[Tokenguard Operator](https://github.com/didiberman/tokenguard-operator)** | Kubernetes operator scoring ServiceAccount least-privilege by comparing RBAC grants against audit log usage. Detects external IP token abuse. Go, Kubebuilder, controller-runtime. |
