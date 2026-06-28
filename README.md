@@ -1,15 +1,10 @@
 ```
-┌─[ didi@kubestronaut ]──────────────────────────────────────┐
-│                                                            │
-│   $ whoami                                                 │
-│   Didi Berman  ·  DevOps / Cloud Engineer                  │
-│                                                            │
-│   $ kubectl get certifications                             │
-│   CKA  CKAD  CKS  KCNA  KCSA  Kubestronaut 🎖️             │
-│                                                            │
-│   $ curl -s https://didibe.dev                             │
-│                                                            │
-└────────────────────────────────────────────────────────────┘
++-+-+-+-+ +-+-+-+-+-+-+
+|D|I|D|I| |B|E|R|M|A|N|
++-+-+-+-+ +-+-+-+-+-+-+
+
+  devops / cloud / kubernetes
+  kubestronaut · didibe.dev
 ```
 
 <p align="center">
