@@ -22,7 +22,7 @@
 | **[NinjaDevOps](https://ninjadevops.com)** | Interactive DevOps challenge platform - 23 real-world Linux/Kubernetes/Docker emergencies in live GCP VMs. React, Firebase, Cloud Run. |
 | **[Sovereign-Mesh](https://github.com/didiberman/sovereign-mesh-k8s)** | Multi-tenant AI PaaS on Hetzner. Private RAG enclaves (vLLM, Qdrant, TEI) on a zero-trust K3s cluster with CKS-grade isolation and GitOps via ArgoCD. |
 
-Also maintain production RAG pipelines and n8n automation for a German eCommerce agency.
+Ongoing embedded contractor for a German eCommerce agency — production RAG pipelines (AWS Bedrock Knowledge Bases) and n8n automation across their content, SEO, and operational workflows.
 
 ---
 
