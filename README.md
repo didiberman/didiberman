@@ -1,4 +1,16 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=326CE5&height=140&text=Didi%20Berman&fontSize=42&fontColor=white&animation=fadeIn&desc=DevOps%20%2F%20Cloud%20Engineer%20%C2%B7%20Kubestronaut&descSize=17&descAlignY=62" />
+```
+┌─[ didi@kubestronaut ]──────────────────────────────────────┐
+│                                                            │
+│   $ whoami                                                 │
+│   Didi Berman  ·  DevOps / Cloud Engineer                  │
+│                                                            │
+│   $ kubectl get certifications                             │
+│   CKA  CKAD  CKS  KCNA  KCSA  Kubestronaut 🎖️             │
+│                                                            │
+│   $ curl -s https://didibe.dev                             │
+│                                                            │
+└────────────────────────────────────────────────────────────┘
+```
 
 <p align="center">
   Freelance DevOps / Cloud Engineer &nbsp;·&nbsp; Kubestronaut &nbsp;·&nbsp; <a href="https://didibe.dev">didibe.dev</a>
