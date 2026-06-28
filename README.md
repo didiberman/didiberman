@@ -1,11 +1,13 @@
-```
+<div align="center">
+<pre>
  _____   _____   _____   _____
 |  __ \ |_   _| |  __ \ |_   _|
 | |  | |  | |   | |  | |  | |
 | |  | |  | |   | |  | |  | |
 | |__| | _| |_  | |__| | _| |_
 |_____/ |_____| |_____/ |_____|
-```
+</pre>
+</div>
 
 <p align="center">
   Freelance DevOps / Cloud Engineer &nbsp;·&nbsp; Kubestronaut &nbsp;·&nbsp; <a href="https://didibe.dev">didibe.dev</a>
