@@ -62,6 +62,7 @@ Also maintain production RAG pipelines and n8n automation for a German eCommerce
 **Security**
 
 ![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat&logo=aquasecurity&logoColor=white)
+![harden-runner](https://img.shields.io/badge/harden--runner-00A651?style=flat&logo=githubactions&logoColor=white)
 
 ---
 
