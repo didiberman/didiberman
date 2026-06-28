@@ -15,12 +15,12 @@
 
 | Project | Description |
 |---|---|
-| **[Tokenguard Operator](https://github.com/didiberman/tokenguard-operator)** | Kubernetes operator scoring ServiceAccount least-privilege by comparing RBAC grants against audit log usage. Detects external IP token abuse. Go, Kubebuilder, controller-runtime. |
-| **[NinjaDevOps](https://ninjadevops.com)** | Interactive DevOps challenge platform — 23 real-world Linux/Kubernetes/Docker emergencies in live GCP VMs. React, Firebase, Cloud Run. |
-| **[Sovereign-Mesh](https://github.com/didiberman/sovereign-mesh-k8s)** | Multi-tenant AI PaaS on Hetzner. Private RAG enclaves (vLLM, Qdrant, TEI) on a zero-trust K3s cluster with CKS-grade isolation and GitOps via ArgoCD. |
 | **[practical-aks](https://github.com/didiberman/practical-aks)** | Guided AKS build: blank Azure subscription → Workload Identity-secured, Trivy-scanned, CI/CD-wired cluster running a live LLM proxy. |
 | **[gke-labs](https://github.com/didiberman/gke-labs)** | 18-exercise GKE lab covering Cloud SQL, Memorystore, Terraform, Helm, CI/CD, observability, Temporal workflows, and incident response. |
 | **[kratix-platform](https://github.com/didiberman/kratix-platform)** | Self-service IDP: Kratix + Backstage + Flux on k3s, deployed from scratch with one command. |
+| **[Tokenguard Operator](https://github.com/didiberman/tokenguard-operator)** | Kubernetes operator scoring ServiceAccount least-privilege by comparing RBAC grants against audit log usage. Detects external IP token abuse. Go, Kubebuilder, controller-runtime. |
+| **[NinjaDevOps](https://ninjadevops.com)** | Interactive DevOps challenge platform — 23 real-world Linux/Kubernetes/Docker emergencies in live GCP VMs. React, Firebase, Cloud Run. |
+| **[Sovereign-Mesh](https://github.com/didiberman/sovereign-mesh-k8s)** | Multi-tenant AI PaaS on Hetzner. Private RAG enclaves (vLLM, Qdrant, TEI) on a zero-trust K3s cluster with CKS-grade isolation and GitOps via ArgoCD. |
 
 Also maintain production RAG pipelines and n8n automation for a German eCommerce agency.
 
