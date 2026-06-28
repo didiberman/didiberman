@@ -28,20 +28,40 @@ Also maintain production RAG pipelines and n8n automation for a German eCommerce
 
 ## Stack
 
+**Kubernetes & Orchestration**
+
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat&logo=helm&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Karpenter](https://img.shields.io/badge/Karpenter-FF9900?style=flat&logo=amazonaws&logoColor=white)
+![KEDA](https://img.shields.io/badge/KEDA-009BDB?style=flat&logo=kubernetes&logoColor=white)
+![vcluster](https://img.shields.io/badge/vcluster-F5821F?style=flat&logoColor=white)
+
+**GitOps & IDP**
+
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat&logo=argo&logoColor=white)
+![Flux](https://img.shields.io/badge/Flux-5468FF?style=flat&logo=flux&logoColor=white)
+![Kratix](https://img.shields.io/badge/Kratix-6C36A9?style=flat&logoColor=white)
+![Backstage](https://img.shields.io/badge/Backstage-9BF0E1?style=flat&logo=backstage&logoColor=black)
+![Crossplane](https://img.shields.io/badge/Crossplane-E7526A?style=flat&logo=crossplane&logoColor=white)
+
+**Cloud & Infra**
+
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
 ![GKE](https://img.shields.io/badge/GKE-4285F4?style=flat&logo=googlecloud&logoColor=white)
 ![AKS](https://img.shields.io/badge/AKS-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat&logo=argo&logoColor=white)
-![Flux](https://img.shields.io/badge/Flux-5468FF?style=flat&logo=flux&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat&logo=helm&logoColor=white)
-![Crossplane](https://img.shields.io/badge/Crossplane-E7526A?style=flat&logo=crossplane&logoColor=white)
-![Karpenter](https://img.shields.io/badge/Karpenter-FF9900?style=flat&logo=amazonaws&logoColor=white)
-![KEDA](https://img.shields.io/badge/KEDA-009BDB?style=flat&logo=kubernetes&logoColor=white)
+
+**AI, Workflows & Automation**
+
+![kagent](https://img.shields.io/badge/kagent-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Temporal](https://img.shields.io/badge/Temporal-000000?style=flat&logo=temporal&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
+
+**Security**
+
+![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat&logo=aquasecurity&logoColor=white)
 
 ---
 
