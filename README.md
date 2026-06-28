@@ -1,10 +1,12 @@
 ```
-+-+-+-+-+ +-+-+-+-+-+-+
-|D|I|D|I| |B|E|R|M|A|N|
-+-+-+-+-+ +-+-+-+-+-+-+
+ _____   _____   _____   _____
+|  __ \ |_   _| |  __ \ |_   _|
+| |  | |  | |   | |  | |  | |
+| |  | |  | |   | |  | |  | |
+| |__| | _| |_  | |__| | _| |_
+|_____/ |_____| |_____/ |_____|
 
-  devops / cloud / kubernetes
-  kubestronaut · didibe.dev
+  berman · devops/cloud · kubestronaut
 ```
 
 <p align="center">
