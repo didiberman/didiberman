@@ -41,7 +41,7 @@ I also maintain production RAG bots and n8n workflows for a German eCommerce age
 
 ## The Boring-But-Important Stuff
 
-- **Certifications:** AWS Cloud Practitioner ✓, AWS Solutions Architect Associate ✓, CKA ✓ (March 2026), CKAD ✓ (March 2026), CKS ✓ (April 2026), KCNA ✓, KCSA ✓ — **Kubestronaut** 🎖️ (April 2026)
+- **Certifications:** AWS Solutions Architect Associate ✓, CKA ✓ (March 2026), CKAD ✓ (March 2026), CKS ✓ (April 2026), KCNA ✓, KCSA ✓ — **Kubestronaut** 🎖️ (April 2026)
 - **Stack:** Terraform, Kubernetes, AWS (Lambda, S3, CloudFront, Bedrock), Python, n8n, Docker, GitHub Actions
 - **Philosophy:** Infrastructure as Code, GitOps, cost optimization, and building systems that serve humans (not the other way around)
 
