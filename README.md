@@ -33,7 +33,6 @@ Also maintain production RAG pipelines and n8n automation for a German eCommerce
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
 ![GKE](https://img.shields.io/badge/GKE-4285F4?style=flat&logo=googlecloud&logoColor=white)
 ![AKS](https://img.shields.io/badge/AKS-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat&logo=argo&logoColor=white)
