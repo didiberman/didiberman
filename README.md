@@ -36,6 +36,11 @@ Also maintain production RAG pipelines and n8n automation for a German eCommerce
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat&logo=argo&logoColor=white)
+![Flux](https://img.shields.io/badge/Flux-5468FF?style=flat&logo=flux&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat&logo=helm&logoColor=white)
+![Crossplane](https://img.shields.io/badge/Crossplane-E7526A?style=flat&logo=crossplane&logoColor=white)
+![Karpenter](https://img.shields.io/badge/Karpenter-FF9900?style=flat&logo=amazonaws&logoColor=white)
+![KEDA](https://img.shields.io/badge/KEDA-009BDB?style=flat&logo=kubernetes&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
 
 ---
