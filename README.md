@@ -15,11 +15,11 @@
 
 | Project | Description |
 |---|---|
-| **[practical-aks](https://github.com/didiberman/practical-aks)** | Guided AKS build: blank Azure subscription → Workload Identity-secured, Trivy-scanned cluster running a live LLM proxy. CI/CD pipeline includes supply chain hardening: SHA-pinned Actions and `harden-runner` network egress control — the kind of attack the March 2026 Trivy compromise demonstrated. |
+| **[practical-aks](https://github.com/didiberman/practical-aks)** | Guided AKS build: blank Azure subscription → Workload Identity-secured, Trivy-scanned cluster running a live LLM proxy. CI/CD pipeline includes supply chain hardening: SHA-pinned Actions and `harden-runner` network egress control - the kind of attack the March 2026 Trivy compromise demonstrated. |
 | **[gke-labs](https://github.com/didiberman/gke-labs)** | 18-exercise GKE lab covering Cloud SQL, Memorystore, Terraform, Helm, CI/CD, observability, Temporal workflows, and incident response. |
 | **[kratix-platform](https://github.com/didiberman/kratix-platform)** | Self-service IDP: Kratix + Backstage + Flux on k3s, deployed from scratch with one command. |
 | **[Tokenguard Operator](https://github.com/didiberman/tokenguard-operator)** | Kubernetes operator scoring ServiceAccount least-privilege by comparing RBAC grants against audit log usage. Detects external IP token abuse. Go, Kubebuilder, controller-runtime. |
-| **[NinjaDevOps](https://ninjadevops.com)** | Interactive DevOps challenge platform — 23 real-world Linux/Kubernetes/Docker emergencies in live GCP VMs. React, Firebase, Cloud Run. |
+| **[NinjaDevOps](https://ninjadevops.com)** | Interactive DevOps challenge platform - 23 real-world Linux/Kubernetes/Docker emergencies in live GCP VMs. React, Firebase, Cloud Run. |
 | **[Sovereign-Mesh](https://github.com/didiberman/sovereign-mesh-k8s)** | Multi-tenant AI PaaS on Hetzner. Private RAG enclaves (vLLM, Qdrant, TEI) on a zero-trust K3s cluster with CKS-grade isolation and GitOps via ArgoCD. |
 
 Also maintain production RAG pipelines and n8n automation for a German eCommerce agency.
@@ -52,14 +52,14 @@ AWS-SAA · CKA · CKAD · CKS · KCNA · KCSA · **Kubestronaut** 🎖️
 <details>
 <summary>Show older experiments</summary>
 
-- [youtube-channel-intelligence](https://github.com/didiberman/youtube-channel-intelligence) — Serverless YouTube monitoring + AI analysis on GCP
-- [k0sdev-lab](https://github.com/didiberman/k0sdev-lab) — 2-node k0s cluster on Hetzner via Terraform
-- [terraform-aws-chatops-site](https://github.com/didiberman/terraform-aws-chatops-site) — Deploy static sites by texting a Telegram bot
-- [content-machine](https://github.com/didiberman/content-machine) — Serverless AI video generator on AWS Lambda
-- [tf-telegram-serverless-transcription-aws](https://github.com/didiberman/tf-telegram-serverless-transcription-aws) — Voice-to-text via AWS Transcribe
-- [insta-lead-hunter-ai](https://github.com/didiberman/insta-lead-hunter-ai) — AI-enhanced Instagram lead qualification
-- [youtube-medium-article-agent](https://github.com/didiberman/youtube-medium-article-agent) — Automated video-to-article pipeline
-- [youtube-comment-classifier-mlops](https://github.com/didiberman/youtube-comment-classifier-mlops) — MLOps pipeline with FastAPI + K3s
-- [tcp-hijacker-classic](https://github.com/didiberman/tcp-hijacker-classic) — Educational TCP/IP security tool
+- [youtube-channel-intelligence](https://github.com/didiberman/youtube-channel-intelligence) - Serverless YouTube monitoring + AI analysis on GCP
+- [k0sdev-lab](https://github.com/didiberman/k0sdev-lab) - 2-node k0s cluster on Hetzner via Terraform
+- [terraform-aws-chatops-site](https://github.com/didiberman/terraform-aws-chatops-site) - Deploy static sites by texting a Telegram bot
+- [content-machine](https://github.com/didiberman/content-machine) - Serverless AI video generator on AWS Lambda
+- [tf-telegram-serverless-transcription-aws](https://github.com/didiberman/tf-telegram-serverless-transcription-aws) - Voice-to-text via AWS Transcribe
+- [insta-lead-hunter-ai](https://github.com/didiberman/insta-lead-hunter-ai) - AI-enhanced Instagram lead qualification
+- [youtube-medium-article-agent](https://github.com/didiberman/youtube-medium-article-agent) - Automated video-to-article pipeline
+- [youtube-comment-classifier-mlops](https://github.com/didiberman/youtube-comment-classifier-mlops) - MLOps pipeline with FastAPI + K3s
+- [tcp-hijacker-classic](https://github.com/didiberman/tcp-hijacker-classic) - Educational TCP/IP security tool
 
 </details>
