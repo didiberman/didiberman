@@ -43,15 +43,7 @@ Also maintain production RAG pipelines and n8n automation for a German eCommerce
 
 ## Certifications
 
-| Certification | |
-|---|---|
-| AWS Solutions Architect Associate | ✅ |
-| Certified Kubernetes Administrator (CKA) | ✅ March 2026 |
-| Certified Kubernetes Application Developer (CKAD) | ✅ March 2026 |
-| Certified Kubernetes Security Specialist (CKS) | ✅ April 2026 |
-| Kubernetes and Cloud Native Associate (KCNA) | ✅ April 2026 |
-| Kubernetes and Cloud Native Security Associate (KCSA) | ✅ April 2026 |
-| 🎖️ **Kubestronaut** | ✅ April 2026 |
+AWS-SAA · CKA · CKAD · CKS · KCNA · KCSA · **Kubestronaut** 🎖️
 
 ---
 
