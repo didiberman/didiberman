@@ -1,7 +1,7 @@
 <h1 align="center">Didi Berman</h1>
 
 <p align="center">
-  Freelance DevOps / Cloud Engineer &nbsp;·&nbsp; Kubestronaut &nbsp;·&nbsp; <a href="https://didibe.dev">didiberman.com</a>
+  Freelance DevOps / Cloud Engineer &nbsp;·&nbsp; Kubestronaut &nbsp;·&nbsp; <a href="https://didibe.dev">didibe.dev</a>
 </p>
 
 <p align="center">
