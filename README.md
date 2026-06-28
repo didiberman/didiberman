@@ -5,8 +5,6 @@
 | |  | |  | |   | |  | |  | |
 | |__| | _| |_  | |__| | _| |_
 |_____/ |_____| |_____/ |_____|
-
-  berman · devops/cloud · kubestronaut
 ```
 
 <p align="center">
