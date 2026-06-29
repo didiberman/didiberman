@@ -10,7 +10,7 @@
 </div>
 
 <p align="center">
-  DevOps / Cloud Engineer &nbsp;·&nbsp; Kubestronaut &nbsp;·&nbsp; <a href="https://didibe.dev">didibe.dev</a>
+  DevOps / Platform Engineer &nbsp;·&nbsp; Kubestronaut &nbsp;·&nbsp; <a href="https://didibe.dev">didibe.dev</a>
 </p>
 
 <p align="center">
