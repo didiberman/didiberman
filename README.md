@@ -44,7 +44,7 @@ Ongoing embedded contractor for a German eCommerce agency - production RAG pipel
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Karpenter](https://img.shields.io/badge/Karpenter-FF9900?style=flat&logo=amazonaws&logoColor=white)
 ![KEDA](https://img.shields.io/badge/KEDA-009BDB?style=flat&logo=kubernetes&logoColor=white)
-![vCluster](https://img.shields.io/badge/vcluster-F5821F?style=flat&logoColor=white)
+![vCluster](https://img.shields.io/badge/vCluster-F5821F?style=flat&logoColor=white)
 
 **GitOps & IDP**
 
