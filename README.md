@@ -15,7 +15,7 @@
 
 <p align="center">
   I build and operate Kubernetes infrastructure, cloud-native platforms, and automation pipelines.<br/>
-  Currently exploring Internal Developer Platforms with Kratix, Backstage, Crossplane & Supply Chain Security (trivy hack)
+  Currently exploring Internal Developer Platforms w/ Backstage, Crossplane & Supply Chain Security (trivy hack)
 </p>
 
 ---
