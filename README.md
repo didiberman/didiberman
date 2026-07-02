@@ -15,7 +15,7 @@
 
 <p align="center">
   I build and operate Kubernetes infrastructure and automation pipelines.<br/>
-  Currently exploring Internal Developer Platforms w/ Backstage, Crossplane & Supply Chain Security (<a href="https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html">trivy hack</a>)
+  Currently exploring Internal Developer Platforms w/ Backstage, Crossplane & <a href="https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html">Supply Chain Security</a>
 </p>
 
 ---
