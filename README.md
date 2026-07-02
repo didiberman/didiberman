@@ -15,7 +15,7 @@
 
 <p align="center">
   I build and operate Kubernetes infrastructure and automation pipelines.<br/>
-  Currently exploring Internal Developer Platforms w/ Backstage, Crossplane & Supply Chain Security (trivy hack)
+  Currently exploring Internal Developer Platforms w/ Backstage, Crossplane & Supply Chain Security (<a href="https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html">trivy hack</a>)
 </p>
 
 ---
@@ -24,7 +24,7 @@
 
 | Project | Description |
 |---|---|
-| **[practical-aks](https://github.com/didiberman/practical-aks)** | Guided AKS build: blank Azure subscription → Workload Identity-secured, Trivy-scanned cluster running a live LLM proxy. CI/CD pipeline includes supply chain hardening: SHA-pinned Actions and `harden-runner` network egress control - the kind of attack the March 2026 Trivy compromise demonstrated.<br/>![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aquasecurity&logoColor=white) ![harden-runner](https://img.shields.io/badge/harden--runner-00A651?style=flat-square&logo=githubactions&logoColor=white) |
+| **[practical-aks](https://github.com/didiberman/practical-aks)** | Guided AKS build: blank Azure subscription → Workload Identity-secured, Trivy-scanned cluster running a live LLM proxy. CI/CD pipeline includes supply chain hardening: SHA-pinned Actions and `harden-runner` network egress control - the kind of attack the [March 2026 Trivy compromise](https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html) demonstrated.<br/>![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aquasecurity&logoColor=white) ![harden-runner](https://img.shields.io/badge/harden--runner-00A651?style=flat-square&logo=githubactions&logoColor=white) |
 | **[gke-labs](https://github.com/didiberman/gke-labs)** | 18-exercise GKE lab covering Cloud SQL, Memorystore, Terraform, Helm, CI/CD, observability, Temporal workflows, and incident response.<br/>![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white) ![Temporal](https://img.shields.io/badge/Temporal-000000?style=flat-square&logo=temporal&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) |
 | **[kratix-platform](https://github.com/didiberman/kratix-platform)** | Self-service IDP: Kratix + Backstage + Flux on k3s, deployed from scratch with one command.<br/>![Kratix](https://img.shields.io/badge/Kratix-6C36A9?style=flat-square&logoColor=white) ![Backstage](https://img.shields.io/badge/Backstage-9BF0E1?style=flat-square&logo=backstage&logoColor=black) ![Crossplane](https://img.shields.io/badge/Crossplane-E7526A?style=flat-square&logo=crossplane&logoColor=white) |
 | **[Tokenguard Operator](https://github.com/didiberman/tokenguard-operator)** | Kubernetes operator scoring ServiceAccount least-privilege by comparing RBAC grants against audit log usage. Detects external IP token abuse. Go, Kubebuilder, controller-runtime.<br/>![Kubebuilder](https://img.shields.io/badge/Kubebuilder-326CE5?style=flat-square&logo=kubernetes&logoColor=white) |
