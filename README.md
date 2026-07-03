@@ -84,7 +84,7 @@ AWS-SAA · CKA · CKAD · CKS · KCNA · KCSA · **Kubestronaut** 🎖️
 
 ## Off the Clock
 
-📖 I wrote a book: [*Social Freedom Unleashed*](https://www.amazon.de/dp/B0CYQ5DQXG) - on overcoming social anxiety through breathwork and mindfulness.
+📖 I wrote a book: [*Social Freedom Unleashed*](https://www.amazon.de/dp/B0CYQ5DQXG) - on overcoming social anxiety through mindfulness, behavioral therapy and trauma work.
 
 ---
 
