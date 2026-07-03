@@ -99,6 +99,6 @@ AWS-SAA · CKA · CKAD · CKS · KCNA · KCSA · **Kubestronaut** 🎖️
 ---
 
 <p align="center">
-  <sub>📖 Author of <a href="https://www.amazon.de/dp/B0CYM7Y2L1">Social Freedom Unleashed</a>, a book on overcoming social anxiety.</sub>
+  📖 Author of <b><a href="https://www.amazon.de/dp/B0CYM7Y2L1">Social Freedom Unleashed</a></b>, a book on overcoming social anxiety.
 </p>
 
