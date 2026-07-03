@@ -32,8 +32,6 @@
 | **[NinjaDevOps](https://ninjadevops.com)** | Interactive DevOps challenge platform - 80+ real-world challenges covering Linux, Docker, and Kubernetes (CKAD, CKA, CKS) in live GCP VMs. Broken servers, misconfigs, k8s emergencies - all from a browser terminal.<br/>![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![Cloud Run](https://img.shields.io/badge/Cloud_Run-4285F4?style=flat-square&logo=googlecloud&logoColor=white) |
 | **[Sovereign-Mesh](https://github.com/didiberman/sovereign-mesh-k8s)** | Multi-tenant AI PaaS on Hetzner: vLLM, Qdrant, and TEI on a hardened K3s cluster with tenant isolation and GitOps via ArgoCD.<br/>![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white) ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white) ![vLLM](https://img.shields.io/badge/vLLM-000000?style=flat-square&logoColor=white) |
 
-Contractor for a German eCommerce agency: production RAG pipelines (AWS Bedrock Knowledge Bases) and n8n automation for content, SEO, and ops.
-
 📖 Off the clock: I wrote [*Social Freedom Unleashed*](https://www.amazon.com/dp/B0CYM7Y2L1), a book on overcoming social anxiety through mindfulness, behavioral therapy and trauma work.
 
 ---
