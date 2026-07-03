@@ -18,6 +18,10 @@
   Currently exploring Internal Developer Platforms w/ Backstage, Crossplane & <a href="https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html">Supply Chain Security</a>
 </p>
 
+<p align="center">
+  📖 Author of <b><a href="https://www.amazon.de/dp/B0CYM7Y2L1">Social Freedom Unleashed</a></b>, a book on overcoming social anxiety.
+</p>
+
 
 ## Selected Work
 
@@ -96,9 +100,4 @@ AWS-SAA · CKA · CKAD · CKS · KCNA · KCSA · **Kubestronaut** 🎖️
 
 </details>
 
----
-
-<p align="center">
-  📖 Author of <b><a href="https://www.amazon.de/dp/B0CYM7Y2L1">Social Freedom Unleashed</a></b>, a book on overcoming social anxiety.
-</p>
 
