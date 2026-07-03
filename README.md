@@ -20,7 +20,7 @@
 
 ---
 
-📖 Off the clock: I wrote [*Social Freedom Unleashed*](https://www.amazon.de/dp/B0CYM7Y2L1), a book on overcoming social anxiety through mindfulness, behavioral therapy and trauma work.
+📖 Also: author of [*Social Freedom Unleashed*](https://www.amazon.de/dp/B0CYM7Y2L1), a book on overcoming social anxiety.
 
 ## Selected Work
 
