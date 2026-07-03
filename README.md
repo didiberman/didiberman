@@ -34,6 +34,8 @@
 
 Contractor for a German eCommerce agency: production RAG pipelines (AWS Bedrock Knowledge Bases) and n8n automation for content, SEO, and ops.
 
+📖 Off the clock: I wrote [*Social Freedom Unleashed*](https://www.amazon.com/dp/B0CYM7Y2L1), a book on overcoming social anxiety through mindfulness, behavioral therapy and trauma work.
+
 ---
 
 ## Stack
@@ -79,12 +81,6 @@ Contractor for a German eCommerce agency: production RAG pipelines (AWS Bedrock 
 ## Certifications
 
 AWS-SAA · CKA · CKAD · CKS · KCNA · KCSA · **Kubestronaut** 🎖️
-
----
-
-## Off the Clock
-
-📖 I wrote a book: [*Social Freedom Unleashed*](https://www.amazon.com/dp/B0CYM7Y2L1) - on overcoming social anxiety through mindfulness, behavioral therapy and trauma work.
 
 ---
 
