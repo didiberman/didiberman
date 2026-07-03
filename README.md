@@ -18,6 +18,10 @@
   Currently exploring Internal Developer Platforms w/ Backstage, Crossplane & <a href="https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html">Supply Chain Security</a>
 </p>
 
+<p align="center">
+  📖 Author of <a href="https://www.amazon.de/dp/B0CYQ5DQXG"><em>Social Freedom Unleashed</em></a>
+</p>
+
 ---
 
 ## Selected Work
