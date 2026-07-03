@@ -18,10 +18,6 @@
   Currently exploring Internal Developer Platforms w/ Backstage, Crossplane & <a href="https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html">Supply Chain Security</a>
 </p>
 
-<p align="center">
-  📖 Author of <a href="https://www.amazon.de/dp/B0CYQ5DQXG"><em>Social Freedom Unleashed</em></a>
-</p>
-
 ---
 
 ## Selected Work
@@ -83,6 +79,12 @@ Contractor for a German eCommerce agency: production RAG pipelines (AWS Bedrock 
 ## Certifications
 
 AWS-SAA · CKA · CKAD · CKS · KCNA · KCSA · **Kubestronaut** 🎖️
+
+---
+
+## Off the Clock
+
+📖 I wrote a book: [*Social Freedom Unleashed*](https://www.amazon.de/dp/B0CYQ5DQXG) - on overcoming social anxiety through breathwork and mindfulness.
 
 ---
 
