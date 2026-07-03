@@ -18,11 +18,6 @@
   Currently exploring Internal Developer Platforms w/ Backstage, Crossplane & <a href="https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html">Supply Chain Security</a>
 </p>
 
-<p align="center">
-  📖 Author of <b><a href="https://www.amazon.de/dp/B0CYM7Y2L1">Social Freedom Unleashed</a></b>, a book on overcoming social anxiety.
-</p>
-
-
 ## Selected Work
 
 | Project | Description |
@@ -99,5 +94,11 @@ AWS-SAA · CKA · CKAD · CKS · KCNA · KCSA · **Kubestronaut** 🎖️
 - [tcp-hijacker-classic](https://github.com/didiberman/tcp-hijacker-classic) - Educational TCP/IP security tool
 
 </details>
+
+---
+
+<p align="center">
+  📖 Off the clock: I wrote <a href="https://www.amazon.de/dp/B0CYM7Y2L1">Social Freedom Unleashed</a>, a book on overcoming social anxiety.
+</p>
 
 
