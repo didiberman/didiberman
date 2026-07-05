@@ -16,7 +16,7 @@
 <p align="center">
   I build and operate Kubernetes infrastructure and automation pipelines.<br/>
   Currently exploring Internal Developer Platforms w/ Backstage, Crossplane & Supply Chain Security.<br/>
-  Latest on the blog: <a href="https://didibe.dev/blog/trivy-supply-chain-attack">The Trivy CI/CD Hack</a> — hijacked pipeline secrets and the Kubernetes clusters they could reach.
+  Latest on the blog: <a href="https://didibe.dev/blog/trivy-supply-chain-attack">The Trivy CI/CD Hack</a>: hijacked pipeline secrets and the Kubernetes clusters they could reach.
 </p>
 
 ## Selected Work
