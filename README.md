@@ -14,7 +14,7 @@ $ kubectl describe deployment didi
 
 Name:          didi
 Role:          DevOps / Platform Engineer
-Status:        Kubestronaut 🎖️
+Status:        Kubestronaut 🧑‍🚀
 Replicas:      1 desired | 1 updated | 1 available (one of a kind)
 StrategyType:  RollingUpdate (always learning, zero downtime)
 Focus:         Internal Developer Platforms · Supply Chain Security
@@ -98,7 +98,7 @@ $ helm list -n stack
 ```console
 $ kubectl get certifications
 
-CKA ✓   CKAD ✓   CKS ✓   KCNA ✓   KCSA ✓   AWS-SAA ✓   →   KUBESTRONAUT 🎖️
+CKA ✓   CKAD ✓   CKS ✓   KCNA ✓   KCSA ✓   AWS-SAA ✓   →   KUBESTRONAUT 🧑‍🚀
 ```
 
 <details>
