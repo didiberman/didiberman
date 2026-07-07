@@ -10,13 +10,23 @@
 </div>
 
 <pre>
-$ kubectl describe engineer didi
+$ kubectl describe pod didi
 
-Name:       didi
-Role:       DevOps / Platform Engineer
-Status:     Kubestronaut 🎖️
-Focus:      Internal Developer Platforms · Supply Chain Security
-Exploring:  Backstage · Crossplane · Kyverno
+Name:         didi
+Namespace:    production
+Node:         earth/eu-central
+Labels:       role=devops-platform-engineer
+              status=kubestronaut 🎖️
+Status:       Running
+Containers:
+  didi:
+    Image:          registry.didibe.dev/didi:latest
+    State:          Running
+    Ready:          True
+    Restart Count:  0
+    Environment:
+      FOCUS:      Internal Developer Platforms · Supply Chain Security
+      EXPLORING:  Backstage · Crossplane · Kyverno
 
 Events:
   Type    Reason           Message
