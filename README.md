@@ -14,9 +14,7 @@ $ kubectl describe deployment didi
 
 Name:          didi
 Role:          DevOps / Platform Engineer
-Status:        Kubestronaut 🧑‍🚀
-Replicas:      1 desired | 1 updated | 1 available (one of a kind)
-StrategyType:  RollingUpdate (always learning, zero downtime)
+Status:        Kubestronaut
 Focus:         Internal Developer Platforms · Supply Chain Security
 Exploring:     Backstage · Crossplane · Kyverno
 
