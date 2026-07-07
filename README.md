@@ -19,11 +19,11 @@
   Latest on the blog: <a href="https://didibe.dev/blog/trivy-supply-chain-attack">The Trivy CI/CD Hack</a>: hijacked pipeline secrets and the Kubernetes clusters they could reach.
 </p>
 
-## Selected Work
+## What I'm Into Recently
 
 | Project | Description |
 |---|---|
-| **[kubewhy](https://github.com/didiberman/kubewhy)** | Ask your Kubernetes cluster "why" in plain English. A read-only AI investigator: it diagnoses crashloops, OOMKills, and misconfigs by narrating each check in real time (with the equivalent `kubectl` command), then hands back a root cause + evidence. RBAC-enforced so it's structurally incapable of changing anything - safe to point at production mid-incident.<br/>![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![OpenRouter](https://img.shields.io/badge/OpenRouter-6467F2?style=flat-square&logoColor=white) |
+| **[kubewhy](https://github.com/didiberman/kubewhy)** | Read-only Kubernetes assistant that explains broken workloads in plain English and shows the checks behind each answer. |
 | **[eks-idp-platform](https://github.com/didiberman/eks-idp-platform)** | Production IDP on AWS EKS. Terraform modules, ArgoCD, Kyverno, Cilium, Karpenter, and hardened CI with SHA-pinned actions, `harden-runner`, and Trivy v0.35.0.<br/>![AWS](https://img.shields.io/badge/AWS-EKS-FF9900?style=flat-square&logo=amazonaws&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![Cilium](https://img.shields.io/badge/Cilium-944FFF?style=flat-square&logoColor=white) ![Karpenter](https://img.shields.io/badge/Karpenter-FF9900?style=flat-square&logo=amazonaws&logoColor=white) ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white) ![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aquasecurity&logoColor=white) ![harden-runner](https://img.shields.io/badge/harden--runner-00A651?style=flat-square&logo=githubactions&logoColor=white) |
 | **[vcluster-platform](https://github.com/didiberman/vcluster-platform)** | Virtual Kubernetes clusters: the isolation of a real cluster at the cost of a namespace. Self-service platform where teams get clusters by opening a PR - blast-radius isolation, GitOps tenant onboarding.<br/>![vCluster](https://img.shields.io/badge/vCluster-F5821F?style=flat-square&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white) |
 | **[kratix-platform](https://github.com/didiberman/kratix-platform)** | Self-service IDP: Kratix + Backstage + Flux on k3s, deployed from scratch with one command.<br/>![Kratix](https://img.shields.io/badge/Kratix-6C36A9?style=flat-square&logoColor=white) ![Backstage](https://img.shields.io/badge/Backstage-9BF0E1?style=flat-square&logo=backstage&logoColor=black) ![Crossplane](https://img.shields.io/badge/Crossplane-E7526A?style=flat-square&logo=crossplane&logoColor=white) |
@@ -102,5 +102,3 @@ AWS-SAA · CKA · CKAD · CKS · KCNA · KCSA · **Kubestronaut** 🎖️
 <p align="center">
   📖 Off the clock: I wrote <a href="https://www.amazon.de/dp/B0CYM7Y2L1">Social Freedom Unleashed</a>, a book on overcoming social anxiety.
 </p>
-
-
