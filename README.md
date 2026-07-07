@@ -19,10 +19,12 @@ Focus:      Internal Developer Platforms · Supply Chain Security
 Exploring:  Backstage · Crossplane · Kyverno
 
 Events:
-  Type    Reason         Message
-  ----    ------         -------
-  Normal  BlogPublished  The Trivy CI/CD Hack: hijacked pipeline secrets
-                         and the Kubernetes clusters they could reach
+  Type    Reason           Message
+  ----    ------           -------
+  Normal  ProjectLaunched  kubewhy — an LLM assistant that root-causes
+                           Kubernetes issues with evidence
+  Normal  BlogPublished    The Trivy CI/CD Hack: hijacked pipeline secrets
+                           and the Kubernetes clusters they could reach
 ```
 
 <p align="center">
@@ -39,14 +41,14 @@ $ kubectl get projects -l tier=featured
 - 🏗️ **[eks-idp-platform](https://github.com/didiberman/eks-idp-platform)** — Production IDP on AWS EKS: Terraform, ArgoCD, Kyverno, Cilium, Karpenter, and supply-chain-hardened CI (SHA-pinned actions, `harden-runner`, Trivy).
 - 🔐 **[tokenguard-operator](https://github.com/didiberman/tokenguard-operator)** — Kubernetes operator that scores ServiceAccount least-privilege by comparing RBAC grants against audit-log usage and detects external IP token abuse. Go, Kubebuilder, controller-runtime.
 - 🥷 **[NinjaDevOps](https://ninjadevops.com)** — Interactive DevOps challenge platform: 80+ real-world scenarios (Linux, Docker, CKA/CKAD/CKS) on live GCP VMs, all from a browser terminal.
+- 🧬 **[vcluster-platform](https://github.com/didiberman/vcluster-platform)** — The isolation of a real cluster at the cost of a namespace: teams get virtual Kubernetes clusters by opening a PR, with GitOps tenant onboarding.
+- 🛠️ **[kratix-platform](https://github.com/didiberman/kratix-platform)** — Self-service IDP: Kratix + Backstage + Flux on k3s, deployed from scratch with one command.
+- 🛡️ **[practical-aks](https://github.com/didiberman/practical-aks)** — Blank Azure subscription → Workload Identity-secured, Trivy-scanned AKS running a live LLM proxy, with supply-chain-hardened CI/CD ([the attack it defends against](https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html)).
 
 <details>
-<summary><code>$ kubectl get projects -l tier=platform</code> &nbsp;— 5 more platform builds</summary>
+<summary><code>$ kubectl get projects -l tier=platform</code> &nbsp;— 2 more platform builds</summary>
 <br/>
 
-- **[vcluster-platform](https://github.com/didiberman/vcluster-platform)** — The isolation of a real cluster at the cost of a namespace: teams get virtual Kubernetes clusters by opening a PR, with GitOps tenant onboarding.
-- **[kratix-platform](https://github.com/didiberman/kratix-platform)** — Self-service IDP: Kratix + Backstage + Flux on k3s, deployed from scratch with one command.
-- **[practical-aks](https://github.com/didiberman/practical-aks)** — Blank Azure subscription → Workload Identity-secured, Trivy-scanned AKS running a live LLM proxy, with supply-chain-hardened CI/CD ([the attack it defends against](https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html)).
 - **[gke-production-patterns](https://github.com/didiberman/gke-production-patterns)** — Production-grade GKE reference architecture: Cloud SQL, Memorystore, Terraform, Helm, observability, Temporal workflows, incident response.
 - **[Sovereign-Mesh](https://github.com/didiberman/sovereign-mesh-k8s)** — Multi-tenant AI PaaS on Hetzner: vLLM, Qdrant, and TEI on a hardened K3s cluster with tenant isolation and ArgoCD GitOps.
 
