@@ -10,31 +10,23 @@
 </div>
 
 <pre>
-$ kubectl describe pod didi
+$ kubectl describe deployment didi
 
-Name:         didi
-Namespace:    production
-Node:         earth/eu-central
-Labels:       role=devops-platform-engineer
-              status=kubestronaut 🎖️
-Status:       Running
-Containers:
-  didi:
-    Image:          registry.didibe.dev/didi:latest
-    State:          Running
-    Ready:          True
-    Restart Count:  0
-    Environment:
-      FOCUS:      Internal Developer Platforms · Supply Chain Security
-      EXPLORING:  Backstage · Crossplane · Kyverno
+Name:          didi
+Role:          DevOps / Platform Engineer
+Status:        Kubestronaut 🎖️
+Replicas:      1 desired | 1 updated | 1 available (one of a kind)
+StrategyType:  RollingUpdate (always learning, zero downtime)
+Focus:         Internal Developer Platforms · Supply Chain Security
+Exploring:     Backstage · Crossplane · Kyverno
 
 Events:
-  Type    Reason           Message
-  ----    ------           -------
-  Normal  ProjectLaunched  <a href="https://github.com/didiberman/kubewhy">kubewhy</a> - an LLM assistant that root-causes
-                           Kubernetes issues with evidence
-  Normal  BlogPublished    <a href="https://didibe.dev/blog/trivy-supply-chain-attack">The Trivy CI/CD Hack</a>: hijacked pipeline secrets
-                           and the Kubernetes clusters they could reach
+  Reason           Message
+  ------           -------
+  ProjectLaunched  <a href="https://github.com/didiberman/kubewhy">kubewhy</a> - an LLM assistant that root-causes
+                   Kubernetes issues with evidence
+  BlogPublished    <a href="https://didibe.dev/blog/trivy-supply-chain-attack">The Trivy CI/CD Hack</a>: hijacked pipeline secrets
+                   and the Kubernetes clusters they could reach
 </pre>
 
 <p align="center">
