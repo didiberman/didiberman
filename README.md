@@ -9,35 +9,56 @@
 </pre>
 </div>
 
-<p align="center">
-  DevOps / Platform Engineer &nbsp;·&nbsp; Kubestronaut &nbsp;·&nbsp; <a href="https://didibe.dev">didibe.dev</a>
-</p>
+```console
+$ kubectl describe engineer didi
+
+Name:       didi
+Role:       DevOps / Platform Engineer
+Status:     Kubestronaut 🎖️
+Focus:      Internal Developer Platforms · Supply Chain Security
+Exploring:  Backstage · Crossplane · Kyverno
+
+Events:
+  Type    Reason         Message
+  ----    ------         -------
+  Normal  BlogPublished  The Trivy CI/CD Hack: hijacked pipeline secrets
+                         and the Kubernetes clusters they could reach
+```
 
 <p align="center">
-  I build and operate Kubernetes infrastructure and automation pipelines.<br/>
-  Currently exploring Internal Developer Platforms w/ Backstage, Crossplane & Supply Chain Security.<br/>
-  Latest on the blog: <a href="https://didibe.dev/blog/trivy-supply-chain-attack">The Trivy CI/CD Hack</a>: hijacked pipeline secrets and the Kubernetes clusters they could reach.
+  🔗 <a href="https://didibe.dev">didibe.dev</a> &nbsp;·&nbsp; 📝 <a href="https://didibe.dev/blog/trivy-supply-chain-attack">Read: The Trivy CI/CD Hack</a>
 </p>
 
-## What I'm Into Recently
-
-| Project | Description |
-|---|---|
-| **[kubewhy](https://github.com/didiberman/kubewhy)** | Read-only Kubernetes assistant that uses an LLM to inspect the cluster step by step, explain each check in plain English, and return the root cause with evidence. |
-| **[eks-idp-platform](https://github.com/didiberman/eks-idp-platform)** | Production IDP on AWS EKS. Terraform modules, ArgoCD, Kyverno, Cilium, Karpenter, and hardened CI with SHA-pinned actions, `harden-runner`, and Trivy v0.35.0.<br/>![AWS](https://img.shields.io/badge/AWS-EKS-FF9900?style=flat-square&logo=amazonaws&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![Cilium](https://img.shields.io/badge/Cilium-944FFF?style=flat-square&logoColor=white) ![Karpenter](https://img.shields.io/badge/Karpenter-FF9900?style=flat-square&logo=amazonaws&logoColor=white) ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white) ![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aquasecurity&logoColor=white) ![harden-runner](https://img.shields.io/badge/harden--runner-00A651?style=flat-square&logo=githubactions&logoColor=white) |
-| **[vcluster-platform](https://github.com/didiberman/vcluster-platform)** | Virtual Kubernetes clusters: the isolation of a real cluster at the cost of a namespace. Self-service platform where teams get clusters by opening a PR - blast-radius isolation, GitOps tenant onboarding.<br/>![vCluster](https://img.shields.io/badge/vCluster-F5821F?style=flat-square&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white) |
-| **[kratix-platform](https://github.com/didiberman/kratix-platform)** | Self-service IDP: Kratix + Backstage + Flux on k3s, deployed from scratch with one command.<br/>![Kratix](https://img.shields.io/badge/Kratix-6C36A9?style=flat-square&logoColor=white) ![Backstage](https://img.shields.io/badge/Backstage-9BF0E1?style=flat-square&logo=backstage&logoColor=black) ![Crossplane](https://img.shields.io/badge/Crossplane-E7526A?style=flat-square&logo=crossplane&logoColor=white) |
-| **[practical-aks](https://github.com/didiberman/practical-aks)** | Production-grade AKS build: blank Azure subscription → Workload Identity-secured, Trivy-scanned cluster running a live LLM proxy. CI/CD pipeline includes supply chain hardening: SHA-pinned Actions and `harden-runner` network egress control - the kind of attack the [March 2026 Trivy compromise](https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html) demonstrated.<br/>![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aquasecurity&logoColor=white) ![harden-runner](https://img.shields.io/badge/harden--runner-00A651?style=flat-square&logo=githubactions&logoColor=white) |
-| **[gke-production-patterns](https://github.com/didiberman/gke-production-patterns)** | Production-grade GKE reference architecture: Cloud SQL, Memorystore, Terraform, Helm, CI/CD, observability, Temporal workflows, and incident response.<br/>![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white) ![Temporal](https://img.shields.io/badge/Temporal-000000?style=flat-square&logo=temporal&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) |
-| **[Tokenguard Operator](https://github.com/didiberman/tokenguard-operator)** | Kubernetes operator scoring ServiceAccount least-privilege by comparing RBAC grants against audit log usage. Detects external IP token abuse. Go, Kubebuilder, controller-runtime.<br/>![Kubebuilder](https://img.shields.io/badge/Kubebuilder-326CE5?style=flat-square&logo=kubernetes&logoColor=white) |
-| **[NinjaDevOps](https://ninjadevops.com)** | Interactive DevOps challenge platform - 80+ real-world challenges covering Linux, Docker, and Kubernetes (CKAD, CKA, CKS) in live GCP VMs. Broken servers, misconfigs, k8s emergencies - all from a browser terminal.<br/>![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![Cloud Run](https://img.shields.io/badge/Cloud_Run-4285F4?style=flat-square&logo=googlecloud&logoColor=white) |
-| **[Sovereign-Mesh](https://github.com/didiberman/sovereign-mesh-k8s)** | Multi-tenant AI PaaS on Hetzner: vLLM, Qdrant, and TEI on a hardened K3s cluster with tenant isolation and GitOps via ArgoCD.<br/>![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white) ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white) ![vLLM](https://img.shields.io/badge/vLLM-000000?style=flat-square&logoColor=white) |
 ---
 
-## Stack
+```console
+$ kubectl get projects -l tier=featured
+```
 
-**Kubernetes & Orchestration**
+- 🧠 **[kubewhy](https://github.com/didiberman/kubewhy)** — Read-only Kubernetes assistant: an LLM inspects the cluster step by step, explains each check in plain English, and returns the root cause with evidence.
+- 🏗️ **[eks-idp-platform](https://github.com/didiberman/eks-idp-platform)** — Production IDP on AWS EKS: Terraform, ArgoCD, Kyverno, Cilium, Karpenter, and supply-chain-hardened CI (SHA-pinned actions, `harden-runner`, Trivy).
+- 🔐 **[tokenguard-operator](https://github.com/didiberman/tokenguard-operator)** — Kubernetes operator that scores ServiceAccount least-privilege by comparing RBAC grants against audit-log usage and detects external IP token abuse. Go, Kubebuilder, controller-runtime.
+- 🥷 **[NinjaDevOps](https://ninjadevops.com)** — Interactive DevOps challenge platform: 80+ real-world scenarios (Linux, Docker, CKA/CKAD/CKS) on live GCP VMs, all from a browser terminal.
 
+<details>
+<summary><code>$ kubectl get projects -l tier=platform</code> &nbsp;— 5 more platform builds</summary>
+<br/>
+
+- **[vcluster-platform](https://github.com/didiberman/vcluster-platform)** — The isolation of a real cluster at the cost of a namespace: teams get virtual Kubernetes clusters by opening a PR, with GitOps tenant onboarding.
+- **[kratix-platform](https://github.com/didiberman/kratix-platform)** — Self-service IDP: Kratix + Backstage + Flux on k3s, deployed from scratch with one command.
+- **[practical-aks](https://github.com/didiberman/practical-aks)** — Blank Azure subscription → Workload Identity-secured, Trivy-scanned AKS running a live LLM proxy, with supply-chain-hardened CI/CD ([the attack it defends against](https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html)).
+- **[gke-production-patterns](https://github.com/didiberman/gke-production-patterns)** — Production-grade GKE reference architecture: Cloud SQL, Memorystore, Terraform, Helm, observability, Temporal workflows, incident response.
+- **[Sovereign-Mesh](https://github.com/didiberman/sovereign-mesh-k8s)** — Multi-tenant AI PaaS on Hetzner: vLLM, Qdrant, and TEI on a hardened K3s cluster with tenant isolation and ArgoCD GitOps.
+
+</details>
+
+---
+
+```console
+$ helm list -n stack
+```
+
+**Kubernetes & Orchestration** &nbsp;
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat&logo=helm&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
@@ -45,45 +66,40 @@
 ![KEDA](https://img.shields.io/badge/KEDA-009BDB?style=flat&logo=kubernetes&logoColor=white)
 ![vCluster](https://img.shields.io/badge/vCluster-F5821F?style=flat&logoColor=white)
 
-**GitOps & IDP**
-
+**GitOps & IDP** &nbsp;
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat&logo=argo&logoColor=white)
 ![Flux](https://img.shields.io/badge/Flux-5468FF?style=flat&logo=flux&logoColor=white)
 ![Kratix](https://img.shields.io/badge/Kratix-6C36A9?style=flat&logoColor=white)
 ![Backstage](https://img.shields.io/badge/Backstage-9BF0E1?style=flat&logo=backstage&logoColor=black)
 ![Crossplane](https://img.shields.io/badge/Crossplane-E7526A?style=flat&logo=crossplane&logoColor=white)
 
-**Cloud & Infra**
-
+**Cloud & Infra** &nbsp;
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
-**AI, Workflows & Automation**
-
+**AI, Workflows & Automation** &nbsp;
 ![kagent](https://img.shields.io/badge/kagent-326CE5?style=flat&logo=kubernetes&logoColor=white)
 ![Temporal](https://img.shields.io/badge/Temporal-000000?style=flat&logo=temporal&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
 
-**Security**
-
+**Security** &nbsp;
 ![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat&logo=aquasecurity&logoColor=white)
 ![harden-runner](https://img.shields.io/badge/harden--runner-00A651?style=flat&logo=githubactions&logoColor=white)
 
 ---
 
-## Certifications
+```console
+$ kubectl get certifications
 
-AWS-SAA · CKA · CKAD · CKS · KCNA · KCSA · **Kubestronaut** 🎖️
-
----
-
-## Other Projects
+CKA ✓   CKAD ✓   CKS ✓   KCNA ✓   KCSA ✓   AWS-SAA ✓   →   KUBESTRONAUT 🎖️
+```
 
 <details>
-<summary>Show older experiments</summary>
+<summary><code>$ kubectl get projects -n archive</code> &nbsp;— older experiments</summary>
+<br/>
 
 - [youtube-channel-intelligence](https://github.com/didiberman/youtube-channel-intelligence) - Serverless YouTube monitoring + AI analysis on GCP
 - [k0s-hetzner-cluster](https://github.com/didiberman/k0s-hetzner-cluster) - 2-node k0s cluster on Hetzner via Terraform
