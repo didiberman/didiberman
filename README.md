@@ -42,7 +42,7 @@ $ kubectl get projects -l tier=featured
 - 🔐 **[tokenguard-operator](https://github.com/didiberman/tokenguard-operator)** - Kubernetes operator that scores ServiceAccount least-privilege by comparing RBAC grants against audit-log usage and detects external IP token abuse. Go, Kubebuilder, controller-runtime.
 - 🥷 **[NinjaDevOps](https://ninjadevops.com)** - Interactive DevOps challenge platform: 80+ real-world scenarios (Linux, Docker, CKA/CKAD/CKS) on live GCP VMs, all from a browser terminal.
 - 🧬 **[vcluster-platform](https://github.com/didiberman/vcluster-platform)** - The isolation of a real cluster at the cost of a namespace: teams get virtual Kubernetes clusters by opening a PR, with GitOps tenant onboarding.
-- 🛠️ **[kratix-platform](https://github.com/didiberman/kratix-platform)** - Self-service IDP: Kratix + Backstage + Flux on k3s, deployed from scratch with one command.
+- 🛠️ **[self-service-idp](https://github.com/didiberman/kratix-platform)** - Self-service IDP assembled from open-source parts (Kratix, Backstage, Flux) on k3s - the work was the integration. One command deploys the whole stack.
 - 🛡️ **[practical-aks](https://github.com/didiberman/practical-aks)** - Blank Azure subscription → Workload Identity-secured, Trivy-scanned AKS running a live LLM proxy, with supply-chain-hardened CI/CD ([the attack it defends against](https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html)).
 
 <details>
