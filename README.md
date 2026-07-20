@@ -25,6 +25,8 @@ Events:
                    Kubernetes issues with evidence
   BlogPublished    <a href="https://didibe.dev/blog/trivy-supply-chain-attack">The Trivy CI/CD Hack</a>: hijacked pipeline secrets
                    and the Kubernetes clusters they could reach
+  BlogPublished    <a href="https://didibe.dev/blog/ai-accelerated-aws-compromise">An AI Broke Into AWS Faster Than You Can Imagine</a>: four
+                   stolen keys, one IP, same second - how it happened and what stops it
 </pre>
 
 <p align="center">
