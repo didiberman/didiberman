@@ -24,8 +24,9 @@ Events:
   ProjectLaunched  <a href="https://github.com/didiberman/kubewhy">kubewhy</a> - an LLM assistant that root-causes
                    Kubernetes issues with evidence
   BlogPublished    <a href="https://didibe.dev/blog/argocd-repo-server-flaw">The Argo CD Vulnerability That Spreads From One Pod</a>
-                   <a href="https://didibe.dev/blog/argocd-repo-server-flaw">to Your Entire Cluster</a>: unpatched for 18 months - what it
-                   is, and the one setting that stops it
+                   <a href="https://didibe.dev/blog/argocd-repo-server-flaw">to Your Entire Cluster</a>: one compromised pod reaches the
+                   repo-server and escalates to full cluster control - still no
+                   patch, but one NetworkPolicy shuts the door
   BlogPublished    <a href="https://didibe.dev/blog/trivy-supply-chain-attack">The Trivy CI/CD Hack</a>: hijacked pipeline secrets
                    and the Kubernetes clusters they could reach
   BlogPublished    <a href="https://didibe.dev/blog/ai-accelerated-aws-compromise">An AI Broke Into AWS Faster Than You Can Imagine</a>: four
