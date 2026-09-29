@@ -13,14 +13,18 @@
 $ kubectl describe deployment didi
 
 Name:          didi
-Role:          DevOps / Platform Engineer
+Role:          Cloud Platform Engineer @ idealo
 Status:        Kubestronaut
-Focus:         Internal Developer Platforms · Supply Chain Security
-Exploring:     Backstage · Crossplane · Kyverno
+Focus:         Managed EKS at scale · Internal Developer Platforms
+               Supply Chain Security
+Exploring:     Crossplane · Backstage · kagent
 
 Events:
   Reason           Message
   ------           -------
+  JoinedTeam       <b>Cloud Platform Engineer @ idealo</b> - Runtime team, building
+                   mEKS: the managed EKS platform internal product teams
+                   ship on
   ProjectLaunched  <a href="https://github.com/didiberman/kubewhy">kubewhy</a> - an LLM assistant that root-causes
                    Kubernetes issues with evidence
   BlogPublished    <a href="https://didibe.dev/blog/argocd-repo-server-flaw">The Argo CD Vulnerability That Spreads From One Pod</a>
@@ -36,6 +40,22 @@ Events:
 <p align="center">
   🔗 <a href="https://didibe.dev">didibe.dev</a>
 </p>
+
+---
+
+```console
+$ kubectl config current-context
+```
+
+**Cloud Platform Engineer @ idealo** — Runtime team
+
+I work on **mEKS**, idealo's managed EKS platform: the Kubernetes foundation that
+internal product teams run their services on. Day to day that means:
+
+- **Fleet-scale EKS** — multi-cluster provisioning and lifecycle as Terraform modules
+- **Guardrails, not gates** — Kyverno ClusterPolicies that enforce best practice without blocking teams
+- **Networking** — Cilium as CNI, IPAM and network policy across the fleet
+- **Capacity & cost** — Karpenter provisioning, consolidation and disruption budgets; Descheduler for topology spread
 
 ---
 
@@ -109,15 +129,10 @@ CKA ✓   CKAD ✓   CKS ✓   KCNA ✓   KCSA ✓   AWS-SAA ✓   →   KUBESTR
 <summary><code>$ kubectl get projects -n archive</code> &nbsp;- older experiments</summary>
 <br/>
 
-- [youtube-channel-intelligence](https://github.com/didiberman/youtube-channel-intelligence) - Serverless YouTube monitoring + AI analysis on GCP
 - [k0s-hetzner-cluster](https://github.com/didiberman/k0s-hetzner-cluster) - 2-node k0s cluster on Hetzner via Terraform
 - [terraform-aws-chatops-site](https://github.com/didiberman/terraform-aws-chatops-site) - Deploy static sites by texting a Telegram bot
-- [content-machine](https://github.com/didiberman/content-machine) - Serverless AI video generator on AWS Lambda
-- [tf-telegram-serverless-transcription-aws](https://github.com/didiberman/tf-telegram-serverless-transcription-aws) - Voice-to-text via AWS Transcribe
-- [insta-lead-hunter-ai](https://github.com/didiberman/insta-lead-hunter-ai) - AI-enhanced Instagram lead qualification
-- [youtube-medium-article-agent](https://github.com/didiberman/youtube-medium-article-agent) - Automated video-to-article pipeline
 - [youtube-comment-classifier-mlops](https://github.com/didiberman/youtube-comment-classifier-mlops) - MLOps pipeline with FastAPI + K3s
-- [tcp-hijacker-classic](https://github.com/didiberman/tcp-hijacker-classic) - Educational TCP/IP security tool
+- [youtube-channel-intelligence](https://github.com/didiberman/youtube-channel-intelligence) - Serverless YouTube monitoring + AI analysis on GCP
 
 </details>
 
