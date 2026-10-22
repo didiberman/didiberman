@@ -50,12 +50,7 @@ $ kubectl config current-context
 **Cloud Platform Engineer @ idealo** — Runtime team
 
 I work on **mEKS**, idealo's managed EKS platform: the Kubernetes foundation that
-internal product teams run their services on. Day to day that means:
-
-- **Fleet-scale EKS** — multi-cluster provisioning and lifecycle as Terraform modules
-- **Guardrails, not gates** — Kyverno ClusterPolicies that enforce best practice without blocking teams
-- **Networking** — Cilium as CNI, IPAM and network policy across the fleet
-- **Capacity & cost** — Karpenter provisioning, consolidation and disruption budgets; Descheduler for topology spread
+internal product teams run their services on. 
 
 ---
 
