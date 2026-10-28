@@ -17,7 +17,7 @@ Role:          Cloud Platform Engineer @ idealo
 Status:        Kubestronaut
 Focus:         Managed EKS at scale · Internal Developer Platforms
                Supply Chain Security
-Exploring:     Crossplane · Backstage · kagent
+Exploring:     llm-d · vLLM autoscaling · Crossplane · Backstage · kagent
 
 Events:
   Reason           Message
@@ -25,6 +25,9 @@ Events:
   JoinedTeam       <b>Cloud Platform Engineer @ idealo</b> - Runtime team, building
                    mEKS: the managed EKS platform internal product teams
                    ship on
+  ProjectLaunched  <a href="https://github.com/didiberman/llm-d-eks-lab">llm-d-eks-lab</a> - llm-d v1.0 on EKS: GPU inference
+                   that autoscales on queue depth, not CPU, and
+                   consolidates to zero GPUs when idle
   ProjectLaunched  <a href="https://github.com/didiberman/kubewhy">kubewhy</a> - an LLM assistant that root-causes
                    Kubernetes issues with evidence
   BlogPublished    <a href="https://didibe.dev/blog/argocd-repo-server-flaw">The Argo CD Vulnerability That Spreads From One Pod</a>
@@ -58,9 +61,9 @@ internal product teams run their services on.
 $ kubectl get projects -l tier=featured
 ```
 
+- ⚡ **[llm-d-eks-lab](https://github.com/didiberman/llm-d-eks-lab)** - GPU inference on EKS that autoscales on inference queue depth, not CPU: [llm-d](https://llm-d.ai) v1.0 with KEDA driven by its endpoint picker, Karpenter consolidating to zero GPUs when idle, and no NAT Gateway. Terraform; a 3-hour practice session costs ~$0.40.
 - 🧠 **[kubewhy](https://github.com/didiberman/kubewhy)** - Read-only Kubernetes assistant: an LLM inspects the cluster step by step, explains each check in plain English, and returns the root cause with evidence.
 - 🏗️ **[eks-idp-platform](https://github.com/didiberman/eks-idp-platform)** - Production IDP on AWS EKS: Terraform, ArgoCD, Kyverno, Cilium, Karpenter, and supply-chain-hardened CI (SHA-pinned actions, `harden-runner`, Trivy).
-- ⚡ **[llm-d-eks-lab](https://github.com/didiberman/llm-d-eks-lab)** - llm-d v1.0 inference on EKS that autoscales on inference queue depth, not CPU: KEDA driven by llm-d's endpoint picker, Karpenter consolidating to zero GPUs when idle, no NAT Gateway. Terraform; a 3-hour practice session costs ~$0.40.
 - 🔐 **[tokenguard-operator](https://github.com/didiberman/tokenguard-operator)** - Kubernetes operator that scores ServiceAccount least-privilege by comparing RBAC grants against audit-log usage and detects external IP token abuse. Go, Kubebuilder, controller-runtime.
 - 🥷 **[NinjaDevOps](https://ninjadevops.com)** - Interactive DevOps challenge platform: 80+ real-world scenarios (Linux, Docker, CKA/CKAD/CKS) on live GCP VMs, all from a browser terminal.
 - 🧬 **[vcluster-platform](https://github.com/didiberman/vcluster-platform)** - The isolation of a real cluster at the cost of a namespace: teams get virtual Kubernetes clusters by opening a PR, with GitOps tenant onboarding.
