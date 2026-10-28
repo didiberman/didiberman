@@ -60,6 +60,7 @@ $ kubectl get projects -l tier=featured
 
 - 🧠 **[kubewhy](https://github.com/didiberman/kubewhy)** - Read-only Kubernetes assistant: an LLM inspects the cluster step by step, explains each check in plain English, and returns the root cause with evidence.
 - 🏗️ **[eks-idp-platform](https://github.com/didiberman/eks-idp-platform)** - Production IDP on AWS EKS: Terraform, ArgoCD, Kyverno, Cilium, Karpenter, and supply-chain-hardened CI (SHA-pinned actions, `harden-runner`, Trivy).
+- ⚡ **[llm-d-eks-lab](https://github.com/didiberman/llm-d-eks-lab)** - llm-d v1.0 inference on EKS that autoscales on inference queue depth, not CPU: KEDA driven by llm-d's endpoint picker, Karpenter consolidating to zero GPUs when idle, no NAT Gateway. Terraform; a 3-hour practice session costs ~$0.40.
 - 🔐 **[tokenguard-operator](https://github.com/didiberman/tokenguard-operator)** - Kubernetes operator that scores ServiceAccount least-privilege by comparing RBAC grants against audit-log usage and detects external IP token abuse. Go, Kubebuilder, controller-runtime.
 - 🥷 **[NinjaDevOps](https://ninjadevops.com)** - Interactive DevOps challenge platform: 80+ real-world scenarios (Linux, Docker, CKA/CKAD/CKS) on live GCP VMs, all from a browser terminal.
 - 🧬 **[vcluster-platform](https://github.com/didiberman/vcluster-platform)** - The isolation of a real cluster at the cost of a namespace: teams get virtual Kubernetes clusters by opening a PR, with GitOps tenant onboarding.
