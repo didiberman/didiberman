@@ -22,7 +22,7 @@ Exploring:     llm-d · vLLM autoscaling · Crossplane · Backstage · kagent
 Events:
   Reason           Message
   ------           -------
-  JoinedTeam       <b>Cloud Platform Engineer @ idealo</b> - Runtime team, building
+  JoinedTeam       <b>Cloud Platform Engineer</b> - Runtime team, building
                    mEKS: the managed EKS platform internal product teams
                    ship on
   ProjectLaunched  <a href="https://github.com/didiberman/llm-d-eks-lab">llm-d-eks-lab</a> - llm-d v1.0 on EKS: GPU inference
@@ -43,17 +43,6 @@ Events:
 <p align="center">
   🔗 <a href="https://didibe.dev">didibe.dev</a>
 </p>
-
----
-
-```console
-$ kubectl config current-context
-```
-
-**Cloud Platform Engineer @ idealo** — Runtime team
-
-I work on **mEKS**, idealo's managed EKS platform: the Kubernetes foundation that
-internal product teams run their services on. 
 
 ---
 
