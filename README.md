@@ -13,7 +13,7 @@
 $ kubectl describe deployment didi
 
 Name:          didi
-Role:          Cloud Platform Engineer @ idealo
+Role:          Cloud Platform Engineer, specialising in AWS & Kubernetes (EKS)
 Status:        Kubestronaut
 Focus:         Managed EKS at scale · Internal Developer Platforms
                Supply Chain Security
