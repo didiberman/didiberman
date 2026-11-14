@@ -8,7 +8,7 @@
 ╚═════╝  ╚═╝ ╚═════╝  ╚═╝
 </pre>
 <p>
-  <b>Cloud Platform Engineer — AWS & Kubernetes (EKS)</b> · <a href="https://didibe.dev">didibe.dev</a>
+  <b>Cloud Platform & Security Engineer — AWS & Kubernetes (EKS)</b> · <a href="https://didibe.dev">didibe.dev</a>
 </p>
 </div>
 
@@ -17,7 +17,7 @@ $ kubectl describe engineer didi
 
 Name:         didi
 Role:         Cloud Platform Engineer (Runtime Team — building mEKS)
-Focus:        Managed EKS at Scale · GPU/LLM Inference · Supply Chain Security
+Focus:        Managed EKS at Scale · Cloud Security & Forensics · GPU/LLM Inference
 Website:      <a href="https://didibe.dev">https://didibe.dev</a>
 
 Certifications [CNCF Kubestronaut]:
@@ -53,26 +53,26 @@ Open-weights LLM serving on AWS EKS powered by **[llm-d](https://llm-d.ai) v1.0*
 $ kubectl get projects -l tier=core
 </pre>
 
-- **[kubewhy](https://github.com/didiberman/kubewhy)** — **Root-Cause Kubernetes Troubleshooting Agent**  
-  Read-only LLM assistant that inspects cluster state step by step, explains each check in plain English, and returns the root cause backed by cluster evidence.
+- **[kubewhy](https://github.com/didiberman/kubewhy)** — **Root-Cause Kubernetes Investigation & Triage Agent**  
+  Read-only LLM assistant that inspects live cluster state, events, and logs step by step, explains each diagnostic check in plain English, and returns root-cause findings backed by verifiable cluster evidence.
 
-- **[eks-idp-platform](https://github.com/didiberman/eks-idp-platform)** — **Production Internal Developer Platform on AWS EKS**  
-  Terraform, Argo CD, Kyverno, Cilium, and Karpenter, paired with supply-chain-hardened CI (SHA-pinned actions, `harden-runner`, Trivy).
+- **[tokenguard-operator](https://github.com/didiberman/tokenguard-operator)** — **Kubernetes Audit-Log Forensics & RBAC Security Operator**  
+  Go / Kubebuilder operator that analyzes Kubernetes audit logs against RBAC grants to score ServiceAccount least-privilege, map blast radius, and detect external IP token exfiltration and abuse.
 
-- **[tokenguard-operator](https://github.com/didiberman/tokenguard-operator)** — **Kubernetes RBAC & Token Security Operator**  
-  Go / Kubebuilder operator that scores ServiceAccount least-privilege by comparing RBAC grants against audit-log usage and detects external IP token abuse.
+- **[eks-idp-platform](https://github.com/didiberman/eks-idp-platform)** — **Hardened Production Internal Developer Platform on AWS EKS**  
+  Terraform, Argo CD, Kyverno admission guardrails, Cilium network policies, and Karpenter, paired with supply-chain-hardened CI (SHA-pinned actions, `harden-runner` egress filtering, Trivy).
 
-- **[vcluster-platform](https://github.com/didiberman/vcluster-platform)** — **Self-Service Virtual Kubernetes Clusters**  
+- **[vcluster-platform](https://github.com/didiberman/vcluster-platform)** — **Blast-Radius Isolated Virtual Kubernetes Clusters**  
   The isolation of a dedicated cluster at the cost of a namespace: teams provision virtual clusters by opening a PR, with automated GitOps tenant onboarding.
 
 <details>
 <summary><code>$ kubectl get projects -l tier=extended</code> &nbsp;(8 more builds)</summary>
 <br/>
 
+- **[practical-aks](https://github.com/didiberman/practical-aks)** — Blank Azure subscription → Workload Identity-secured, Trivy-scanned AKS running a live LLM proxy with egress-hardened CI/CD ([the attack it defends against](https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html)).
 - **[self-service-idp](https://github.com/didiberman/kratix-platform)** — Self-service IDP assembled from open-source parts (Kratix, Backstage, Flux) on k3s, deployed with one command.
-- **[practical-aks](https://github.com/didiberman/practical-aks)** — Blank Azure subscription → Workload Identity-secured, Trivy-scanned AKS running a live LLM proxy with supply-chain-hardened CI/CD ([the attack it defends against](https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html)).
-- **[gke-production-patterns](https://github.com/didiberman/gke-production-patterns)** — Production GKE reference architecture: Cloud SQL, Memorystore, Terraform, Helm, observability, and Temporal workflows.
-- **[Sovereign-Mesh](https://github.com/didiberman/sovereign-mesh-k8s)** — Multi-tenant AI PaaS on Hetzner: vLLM, Qdrant, and TEI on a hardened k3s cluster with Argo CD GitOps.
+- **[gke-production-patterns](https://github.com/didiberman/gke-production-patterns)** — Production GKE reference architecture: Cloud SQL, Memorystore, Terraform, Helm, observability, Temporal workflows, and incident response.
+- **[Sovereign-Mesh](https://github.com/didiberman/sovereign-mesh-k8s)** — Multi-tenant AI PaaS on Hetzner: vLLM, Qdrant, and TEI on a hardened k3s cluster with tenant isolation and Argo CD GitOps.
 - **[k0s-hetzner-cluster](https://github.com/didiberman/k0s-hetzner-cluster)** — 2-node k0s cluster on Hetzner via Terraform.
 - **[terraform-aws-chatops-site](https://github.com/didiberman/terraform-aws-chatops-site)** — Deploy static sites by texting a Telegram bot.
 - **[youtube-comment-classifier-mlops](https://github.com/didiberman/youtube-comment-classifier-mlops)** — MLOps pipeline with FastAPI and k3s.
@@ -83,15 +83,15 @@ $ kubectl get projects -l tier=core
 ---
 
 <pre>
-$ kubectl logs -n blog --tail=5
+$ kubectl logs -n security-and-engineering-blog --tail=5
 </pre>
 
-- **[The Argo CD Vulnerability That Spreads From One Pod to Your Entire Cluster](https://didibe.dev/blog/argocd-repo-server-flaw)**  
-  One compromised pod reaches the `repo-server` and escalates to full cluster control—still no patch, but one `NetworkPolicy` shuts the door.
-- **[The Trivy CI/CD Hack](https://didibe.dev/blog/trivy-supply-chain-attack)**  
-  Hijacked pipeline secrets and the Kubernetes clusters they could reach.
 - **[An AI Broke Into AWS Faster Than You Can Imagine](https://didibe.dev/blog/ai-accelerated-aws-compromise)**  
-  Four stolen keys, one IP, same second: how it happened and what stops it.
+  Cloud breach anatomy: four stolen IAM keys from one IP in the same second, automated recon & privilege escalation, and the controls that stop it.
+- **[The Argo CD Vulnerability That Spreads From One Pod to Your Entire Cluster](https://didibe.dev/blog/argocd-repo-server-flaw)**  
+  Lateral movement from a single compromised pod to full cluster takeover via `repo-server`, and the `NetworkPolicy` that contains it.
+- **[The Trivy CI/CD Hack](https://didibe.dev/blog/trivy-supply-chain-attack)**  
+  Supply-chain attack forensics: hijacked pipeline secrets, runner egress abuse, and the Kubernetes clusters they could reach.
 - **[Why Setting Up GPUs for AI Never Quite Works, and What NVIDIA Just Fixed](https://didibe.dev/blog/nvidia-aicr-vcluster)**  
   Validating GPU driver, CUDA, and Kubernetes compatibility on real hardware with NVIDIA AICR and vCluster.
 - **[Engineering in the Age of Noise](https://didibe.dev/blog/engineering-in-the-age-of-noise)**  
@@ -105,10 +105,10 @@ $ helm list -n stack
 NAMESPACE       MODULES
 ─────────       ───────
 k8s-core        EKS · Kubernetes · Karpenter · KEDA · Cilium · Helm · vCluster
+sec-forensics   K8s Audit Logs · CloudTrail · Kyverno · Trivy · harden-runner · IAM/OIDC
 ai-inference    llm-d · vLLM · GPU NodePools · Queue-Depth Autoscaling
 gitops-idp      Argo CD · Flux · Crossplane · Backstage · Kratix
-security        Kyverno · Trivy · harden-runner · Go / Kubebuilder Operators
-cloud-iac       AWS · GCP · Azure · Terraform · GitHub Actions (OIDC) · Temporal
+cloud-iac       AWS · GCP · Azure · Terraform · GitHub Actions · Go / Kubebuilder
 </pre>
 
 ---
