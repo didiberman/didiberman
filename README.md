@@ -86,7 +86,7 @@ $ kubectl get projects -l tier=core
 $ kubectl logs -n security-and-engineering-blog --tail=6
 </pre>
 
-- **[Cloud Infiltration in Plain English: The Fake IT Call That Walks Attackers Into Microsoft 365](https://didibe.dev/blog/cloud-infiltration-passkey-phishing)**  
+- **[Cloud Infiltration: How a Fake IT Call Hands Attackers the Keys to Azure](https://didibe.dev/blog/cloud-infiltration-passkey-phishing)**  
   Passkey-phishing cloud breach anatomy: a fake IT call, a planted MFA key, quiet Graph API recon and bulk SharePoint and OneDrive exfiltration, and the sequence of events that gives it away.
 - **[llm-d in Plain English: Serving LLMs on Kubernetes](https://didibe.dev/blog/llm-d-serving-llms-on-kubernetes)**  
   Why an LLM is not a web app: queue-depth autoscaling, the KV cache, and GPU nodes from zero, with real numbers from a 72B model on EKS.
