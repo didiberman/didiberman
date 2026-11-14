@@ -83,9 +83,13 @@ $ kubectl get projects -l tier=core
 ---
 
 <pre>
-$ kubectl logs -n security-and-engineering-blog --tail=5
+$ kubectl logs -n security-and-engineering-blog --tail=6
 </pre>
 
+- **[Cloud Infiltration in Plain English: The Fake IT Call That Walks Attackers Into Microsoft 365](https://didibe.dev/blog/cloud-infiltration-passkey-phishing)**  
+  Passkey-phishing cloud breach anatomy: a fake IT call, a planted MFA key, quiet Graph API recon and bulk SharePoint and OneDrive exfiltration, and the sequence of events that gives it away.
+- **[llm-d in Plain English: Serving LLMs on Kubernetes](https://didibe.dev/blog/llm-d-serving-llms-on-kubernetes)**  
+  Why an LLM is not a web app: queue-depth autoscaling, the KV cache, and GPU nodes from zero, with real numbers from a 72B model on EKS.
 - **[An AI Broke Into AWS Faster Than You Can Imagine](https://didibe.dev/blog/ai-accelerated-aws-compromise)**  
   Cloud breach anatomy: four stolen IAM keys from one IP in the same second, automated recon & privilege escalation, and the controls that stop it.
 - **[The Argo CD Vulnerability That Spreads From One Pod to Your Entire Cluster](https://didibe.dev/blog/argocd-repo-server-flaw)**  
@@ -94,8 +98,6 @@ $ kubectl logs -n security-and-engineering-blog --tail=5
   Supply-chain attack forensics: hijacked pipeline secrets, runner egress abuse, and the Kubernetes clusters they could reach.
 - **[Why Setting Up GPUs for AI Never Quite Works, and What NVIDIA Just Fixed](https://didibe.dev/blog/nvidia-aicr-vcluster)**  
   Validating GPU driver, CUDA, and Kubernetes compatibility on real hardware with NVIDIA AICR and vCluster.
-- **[Engineering in the Age of Noise](https://didibe.dev/blog/engineering-in-the-age-of-noise)**  
-  Staying grounded when AI and infrastructure tooling move at light speed.
 
 ---
 
